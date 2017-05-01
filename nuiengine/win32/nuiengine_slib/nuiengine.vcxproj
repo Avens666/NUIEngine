@@ -1,0 +1,221 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\nuiengine\BaseClass\CharSet.cpp" />
+    <ClCompile Include="..\..\nuiengine\BaseClass\error.cpp" />
+    <ClCompile Include="..\..\nuiengine\BaseClass\FilePath.cpp" />
+    <ClCompile Include="..\..\nuiengine\BaseClass\KFile.cpp" />
+    <ClCompile Include="..\..\nuiengine\BaseClass\KGlobalFunction.cpp" />
+    <ClCompile Include="..\..\nuiengine\BaseClass\KNFile.cpp" />
+    <ClCompile Include="..\..\nuiengine\BaseClass\KProfile.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\AnimationThread.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\DataSync.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\K9PatchImageDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KAreaBlurDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KBitmapTextDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KColorDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KColorTextDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KImageDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KPathEffectDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KShapeDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KSvgAnalyzing.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KTextDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KTextMultiLineDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\drawable\KWaveEffectDrawable.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\Easing.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KConfigManager.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KEasingCurve.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KFontManager.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KGalleryView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KGestureDetector.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KLog.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KMessage.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KScreen.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KStringManager.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KSurfaceManager.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\KTimer.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\mainforwindows.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\message.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\messageforwindows.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\NUIAnimation.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\NUIInstance.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\utility.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KButtonView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KCheckboxView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KEditView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KListView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KMenuView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KMoveableView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KProcessView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KSlideView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KStaticTextView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KSwitchButtonView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KTextView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KTipView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KView.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KViewGroup.cpp" />
+    <ClCompile Include="..\..\nuiengine\core\views\KWaveEffectView.cpp" />
+    <ClCompile Include="..\..\nuiengine\graphic\Src\glenv.cpp" />
+    <ClCompile Include="..\..\nuiengine\graphic\Src\REEffectHelper.cpp" />
+    <ClCompile Include="..\..\nuiengine\graphic\Src\RERect.cpp" />
+    <ClCompile Include="..\..\nuiengine\graphic\Src\RESurface.cpp" />
+    <ClCompile Include="..\..\nuiengine\graphic\Src\RESurfaceFactory.cpp" />
+    <ClCompile Include="..\..\nuiengine\graphic\Src\REWindow.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\CharSet.h" />
+    <ClInclude Include="..\..\nuiengine\include\baseclass\FilePath.h" />
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KFile.h" />
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KGlobalFunction.h" />
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KNFile.h" />
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KObject.h" />
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KProfile.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\DrawLooper.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\glenv.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\ImageCoder.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\MaskFilter.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\PathEffect.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\Rasterizer.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REBitmap.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\RECanvas.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REColor.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REEffectHelper.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REMatrix.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\renderingengine.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REPaint.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REPath.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REPoint.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\RERect.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\RERegion.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REScalar.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\RETypeface.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\REWindow.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\Shader.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\SkiaRESurface.h" />
+    <ClInclude Include="..\..\nuiengine\include\graphic\Xfermode.h" />
+    <ClInclude Include="..\..\nuiengine\include\KLog.h" />
+    <ClInclude Include="..\..\nuiengine\include\NE_configure.h" />
+    <ClInclude Include="..\..\nuiengine\include\NE_debug.h" />
+    <ClInclude Include="..\..\nuiengine\include\NE_error.h" />
+    <ClInclude Include="..\..\nuiengine\include\NE_macro.h" />
+    <ClInclude Include="..\..\nuiengine\include\NE_pubhead.h" />
+    <ClInclude Include="..\..\nuiengine\include\NE_type.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\AnimationThread.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\DataSync.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\K9PatchImageDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KAreaBlurDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KBitmapTextDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KButtonView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KCheckboxView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KColorDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KColorTextDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KConfigManager.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KEasingCurve.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KEditView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KFontManager.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KGalleryView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KGestureDetector.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KImageDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KListView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KMenuView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KMessage.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KMoveableView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KPathEffectDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KProcessView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KScreen.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KShapeDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSlideView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KStaticTextView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KStringManager.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSurfaceManager.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSvgAnalyzing.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSwitchButtonView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTextDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTextMultiLineDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTextView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTimer.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTipView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KViewGroup.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KWaveEffectDrawable.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KWaveEffectView.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\mainforwindows.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\message.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\NUIAnimation.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\sigslot.h" />
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\utility.h" />
+    <ClInclude Include="..\..\nuiengine\include\Platform.h" />
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{87C5B29F-DDDD-42B8-BA41-C625EF7EB382}</ProjectGuid>
+    <RootNamespace>nuiengine</RootNamespace>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>true</UseDebugLibraries>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Label="Configuration" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ConfigurationType>StaticLibrary</ConfigurationType>
+    <UseDebugLibraries>false</UseDebugLibraries>
+    <WholeProgramOptimization>true</WholeProgramOptimization>
+    <CharacterSet>Unicode</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="nuiengine.props" />
+  </ImportGroup>
+  <ImportGroup Label="PropertySheets" Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <Import Project="nuiengine.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>$(SolutionDir)..\static_lib\</OutDir>
+    <IntDir>$(SolutionDir)..\..\VSTempDir\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>$(ProjectName)_D</TargetName>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>$(SolutionDir)..\static_lib\</OutDir>
+    <IntDir>$(SolutionDir)..\..\VSTempDir\$(ProjectName)\$(Configuration)\</IntDir>
+    <TargetName>nuiengine</TargetName>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>Disabled</Optimization>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <DisableSpecificWarnings>4251</DisableSpecificWarnings>
+    </ClCompile>
+    <Link>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <WarningLevel>Level3</WarningLevel>
+      <Optimization>MaxSpeed</Optimization>
+      <PreprocessorDefinitions>NDEBUG;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <IntrinsicFunctions>true</IntrinsicFunctions>
+    </ClCompile>
+  </ItemDefinitionGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

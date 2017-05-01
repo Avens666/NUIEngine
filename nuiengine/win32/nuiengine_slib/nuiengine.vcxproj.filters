@@ -1,0 +1,477 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="源文件">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="头文件">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hpp;hxx;hm;inl;inc;xsd</Extensions>
+    </Filter>
+    <Filter Include="资源文件">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="源文件\graphic">
+      <UniqueIdentifier>{a04eaf2b-6097-4a2b-8110-353859a149e8}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core">
+      <UniqueIdentifier>{96d10b51-8833-4462-a2fc-88397c4e16ca}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core\drawable">
+      <UniqueIdentifier>{de51f0d3-f9dd-4990-89c9-fc11331768be}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\core\views">
+      <UniqueIdentifier>{317cf903-c6c7-4078-ac2e-55e1c980b1c4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="源文件\baseclass">
+      <UniqueIdentifier>{e15340d3-90d7-4d1d-b0c6-44bce63f0057}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\baseclass">
+      <UniqueIdentifier>{c256cb24-4f0d-4da9-bd19-d1e1ff4daab1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\graphic">
+      <UniqueIdentifier>{0922b427-617b-4ac3-a970-327822dc35a5}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="头文件\nuiengine">
+      <UniqueIdentifier>{e238b910-b3d6-4157-a624-f8b67fc79028}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="..\..\nuiengine\BaseClass\CharSet.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\BaseClass\error.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\BaseClass\FilePath.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\BaseClass\KGlobalFunction.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\BaseClass\KNFile.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\BaseClass\KProfile.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\AnimationThread.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\DataSync.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\Easing.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KConfigManager.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KEasingCurve.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KFontManager.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KGalleryView.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KGestureDetector.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KLog.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KMessage.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KScreen.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KStringManager.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KSurfaceManager.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\KTimer.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\mainforwindows.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\message.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\messageforwindows.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\NUIAnimation.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\NUIInstance.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\utility.cpp">
+      <Filter>源文件\core</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\K9PatchImageDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KAreaBlurDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KBitmapTextDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KColorDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KColorTextDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KImageDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KPathEffectDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KShapeDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KSvgAnalyzing.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KTextDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KTextMultiLineDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\drawable\KWaveEffectDrawable.cpp">
+      <Filter>源文件\core\drawable</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KButtonView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KCheckboxView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KEditView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KListView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KMenuView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KMoveableView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KProcessView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KSlideView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KStaticTextView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KSwitchButtonView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KTextView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KTipView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KViewGroup.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\core\views\KWaveEffectView.cpp">
+      <Filter>源文件\core\views</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\graphic\Src\glenv.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\graphic\Src\REEffectHelper.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\graphic\Src\RERect.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\graphic\Src\RESurface.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\graphic\Src\RESurfaceFactory.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\graphic\Src\REWindow.cpp">
+      <Filter>源文件\graphic</Filter>
+    </ClCompile>
+    <ClCompile Include="..\..\nuiengine\BaseClass\KFile.cpp">
+      <Filter>源文件\baseclass</Filter>
+    </ClCompile>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="..\..\nuiengine\include\KLog.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\NE_configure.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\NE_debug.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\NE_error.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\NE_macro.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\NE_pubhead.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\NE_type.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\Platform.h">
+      <Filter>头文件</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\AnimationThread.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\DataSync.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\K9PatchImageDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KAreaBlurDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KBitmapTextDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KButtonView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KCheckboxView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KColorDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KColorTextDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KConfigManager.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KEasingCurve.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KEditView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KFontManager.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KGalleryView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KGestureDetector.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KImageDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KListView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KMenuView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KMessage.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KMoveableView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KPathEffectDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KProcessView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KScreen.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KShapeDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSlideView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KStaticTextView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KStringManager.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSurfaceManager.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSvgAnalyzing.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KSwitchButtonView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTextDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTextMultiLineDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTextView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTimer.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KTipView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KViewGroup.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KWaveEffectDrawable.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\KWaveEffectView.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\mainforwindows.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\message.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\NUIAnimation.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\sigslot.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\nuiengine\utility.h">
+      <Filter>头文件\nuiengine</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\DrawLooper.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\glenv.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\ImageCoder.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\MaskFilter.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\PathEffect.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\Rasterizer.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REBitmap.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\RECanvas.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REColor.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REEffectHelper.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REMatrix.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\renderingengine.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REPaint.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REPath.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REPoint.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\RERect.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\RERegion.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REScalar.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\RETypeface.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\REWindow.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\Shader.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\SkiaRESurface.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\graphic\Xfermode.h">
+      <Filter>头文件\graphic</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\CharSet.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\FilePath.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KFile.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KGlobalFunction.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KNFile.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KObject.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+    <ClInclude Include="..\..\nuiengine\include\baseclass\KProfile.h">
+      <Filter>头文件\baseclass</Filter>
+    </ClInclude>
+  </ItemGroup>
+</Project>

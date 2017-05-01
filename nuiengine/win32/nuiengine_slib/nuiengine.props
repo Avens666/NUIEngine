@@ -1,0 +1,17 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ImportGroup Label="PropertySheets" />
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup />
+  <ItemDefinitionGroup>
+    <ClCompile>
+      <PreprocessorDefinitions>WIN32;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <AdditionalIncludeDirectories>$(SolutionDir)../nuiengine/include/baseclass;$(SolutionDir)../nuiengine/include/;$(SolutionDir)../nuiengine/include/nuiengine;$(SolutionDir)../nuiengine/include/graphic;$(SolutionDir)../third_party\skia\include;$(SolutionDir)../third_party\skia\include\config\;$(SolutionDir)../third_party\skia\include\core\;$(SolutionDir)../third_party\skia\include\effects\;$(SolutionDir)../third_party\skia\include\images\;$(SolutionDir)../third_party\skia\include\xml\;$(SolutionDir)../third_party\skia\include\gpu\;$(SolutionDir)../third_party\boost\boost_1_51_0\;$(SolutionDir)../third_party\tinyxml\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+    </ClCompile>
+    <Link>
+      <AdditionalLibraryDirectories>$(SolutionDir)../third_party\lib\;$(SolutionDir)../third_party\lib\skia_$(Configuration);$(SolutionDir)../static_lib/</AdditionalLibraryDirectories>
+      <AdditionalDependencies>usp10.lib;TINYXML.lib;OpenGL32.lib;skia_effects.lib;skia_images.lib;skia_core.lib;skia_opts_ssse3.lib;skia_utils.lib;skia_ports.lib;skia_sfnt.lib;skia_skgpu.lib;skia_opts.lib;skia_views.lib;skia_xml.lib;libwebp_demux.lib;libwebp_dsp.lib;libwebp_enc.lib;libwebp_utils.lib;libwebp_dec.lib;%(AdditionalDependencies)</AdditionalDependencies>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup />
+</Project>
