@@ -1,4 +1,4 @@
-Decompression lib.7z.001 lib.7z.002 lib.7z.003 in current directory.
+Decompression lib.7z.001 lib.7z.002 lib.7z.003 ... lib.7z.008  in current directory.
 The file tree after decompression.
 lib
 ©¦  libboost_chrono-vc100-mt-1_51.lib
