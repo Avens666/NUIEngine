@@ -1,5 +1,5 @@
 # NUIEngine
-![](http://www.nuiengine.com/nuiweb/nuiengine/image/p_img_nuilogo.png)
+//![](https://github.com/Avens666/NUIEngine/blob/master/bin/img/nuilogo.png?raw=true)
 
 ## Introduction
 
@@ -24,11 +24,8 @@ https://www.youtube.com/watch?v=FyqRYts4o5E
 
 
 ## Getting Started
-NUIengine基于C++开发，代码可以跨平台，支持Windows Linux Android IOS等主流系统
-现在只上传了Windows的开发环境，基于VS2010项目工程，用户如果需要可以自己配置其他平台的开发环境
 
-NUIengine based on C++ development, the code can cross platform to support Windows Linux Android IOS and other mainstream systems
-Now only upload the Windows development environment, based on the VS2010 project, the user needs to configure their own platform development environment.
+
 ### First Step | 第一步
 1. 下载bin目录下的示例程序（windows版本）
 2. 执行bin/Release/HelloNUI.exe，可以看到初步的运行效果
@@ -42,8 +39,66 @@ NUI Engine的开发文档还在完善中，现阶段可以初步根据sample目�
 NUI Engine development documentation is still in the process, at this stage can be initially based on the sample directory of the sample code to understand the initial NUI engine test methods
 
 ### Compile  | 编译方法
-待补充
-To be supplemented
+NUIengine基于C++开发，代码可以跨平台，支持Windows Linux Android IOS等主流系统
+现在只上传了Windows的开发环境，基于VS2010项目工程，用户如果需要可以自己配置其他平台的开发环境
+
+1. 目录说明
+``` python
+NUIEngine
+├─bin 				//目标程序输出目录
+│  ├─Debug			//Debug版exe输出
+│  ├─img			//图片资源
+│  └─Release		//Release版exe文件输出
+├─nuiengine			//nuiengine引擎源码目录
+│  ├─BaseClass
+│  ├─core
+│  │  ├─drawable
+│  │  └─views
+│  ├─graphic
+│  │  └─Src
+│  └─include
+│      ├─baseclass
+│      ├─graphic
+│      └─nuiengine
+├─sample			//sample程序
+│  └─HelloNUI		//HelloNUI sample源码
+├─third_party		//第三方库
+│  ├─boost				//boost库头文件
+│  │  └─boost_1_51_0
+│  └─lib				//静态lib库
+│  │  ├─skia_debug
+│  │  └─skia_release
+│  ├─skia				//skia库头文件
+│  │  └─include
+│  └─tinyxml			//tinyxml库头文件和源文件
+│      └─Src
+├─tutorial
+└─win32						//Windows平台编译工程
+  	│  nuiengine_lib.sln	// 使用静态库方式编译nuiengine 的VS解决方案文件
+    ├─nuiengine_slib		//nuiengine 静态库VS工程
+    └─sample
+        └─HelloNUI			//HelloNUI 工程
+```
+
+2. 编译步骤
+> 现在仅上传了使用Visual Studio 2010 (SP1) 版本的工程。
+
+**2.1 **首先将third_party目录下的  boost.zip skia.zip  tinyxml.zip三个压缩包解压(不带目录解压)到当前目录.注意解压后和上述目录结构一致
+**2.2** 将third_party/lib目录下的  lib.7z.001 -  lib.7z.008解压到当前目录
+**2.3** 使用VS2010（必须安装SP1补丁）打开 Win32目录下的 nuiengine_lib.sln解决方案文件
+**2.4** 编译工程。 （如果一切OK，则可以编译程序，如果有问题，可以邮件联系  ==cz_666@qq.com== ）
+
+如需要其它VS版本，可自行配制，因为skia需要VS2010以上版本（最新的skia需要VS2012以上，nuiengine现在使用的是比较老的版本，兼容VS2010）
+
+NUIengine based on C++ development, the code can cross platform to support Windows Linux Android IOS and other mainstream systems
+Now only upload the Windows development environment, based on the VS2010 project, the user needs to configure their own platform development environment.
+
+2 compile step
+Now only uploaded using Visual Studio 2010 (SP1) version of the project.
+2.1 first of all, decompress of the boost.zip skia.zip tinyxml.zip compression package  under the third_party directory(without directory decompression) to the current directory. Note that the directory structure is same as the above.
+2.2 third_party/lib directory  decompress the lib.7z.001 - lib.7z.008 to the current directory
+2.3 use VS2010 (must install SP1 patch) open the Win32 directory under the nuiengine_lib.sln solution file
+2.4 compiler engineering. (if all OK, you can compile the program, if there is a problem, you can contact cz_666@qq.com e-mail)
 
 ### Third Party Lib| 第三方库说明
 NUI Engine 使用了skia图形界面库用于底层图形渲染，同时也使用了boost库的部分支持
