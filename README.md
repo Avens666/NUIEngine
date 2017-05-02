@@ -1,5 +1,5 @@
 # NUIEngine
-//![](https://github.com/Avens666/NUIEngine/blob/master/bin/img/nuilogo.png?raw=true)
+![](https://github.com/Avens666/NUIEngine/blob/master/bin/img/nuilogo.png?raw=true)
 
 ## Introduction
 
@@ -43,7 +43,7 @@ NUIengine基于C++开发，代码可以跨平台，支持Windows Linux Android I
 现在只上传了Windows的开发环境，基于VS2010项目工程，用户如果需要可以自己配置其他平台的开发环境
 
 1. 目录说明
-``` python
+``` C++
 NUIEngine
 ├─bin 				//目标程序输出目录
 │  ├─Debug			//Debug版exe输出
@@ -86,7 +86,7 @@ NUIEngine
 **2.1 **首先将third_party目录下的  boost.zip skia.zip  tinyxml.zip三个压缩包解压(不带目录解压)到当前目录.注意解压后和上述目录结构一致
 **2.2** 将third_party/lib目录下的  lib.7z.001 -  lib.7z.008解压到当前目录
 **2.3** 使用VS2010（必须安装SP1补丁）打开 Win32目录下的 nuiengine_lib.sln解决方案文件
-**2.4** 编译工程。 （如果一切OK，则可以编译程序，如果有问题，可以邮件联系  ==cz_666@qq.com== ）
+**2.4** 编译工程。 （如果一切OK，则可以编译程序，如果有问题，可以邮件联系  cz_666@qq.com ）
 
 如需要其它VS版本，可自行配制，因为skia需要VS2010以上版本（最新的skia需要VS2012以上，nuiengine现在使用的是比较老的版本，兼容VS2010）
 
