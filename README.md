@@ -30,6 +30,8 @@ https://www.youtube.com/watch?v=FyqRYts4o5E
 1. 下载bin目录下的示例程序（windows版本）
 2. 执行bin/Release/HelloNUI.exe，可以看到初步的运行效果
 
+![](https://github.com/Avens666/NUIEngine/blob/master/tutorial/image/hellonui.gif?raw=true)
+
 1 download bin directory under the sample program (Windows version)
 2 implementation of bin/Release/HelloNUI.exe, you can see the initial operating results
 
