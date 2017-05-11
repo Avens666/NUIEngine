@@ -720,84 +720,977 @@ void KView::unSetViewActive(kn_bool unsetScreen)
 	//	if (p)
 	//	{
 	//		KView_PTR v_null;
-	//		p->setViewActiÎöq6ÞƒvXwÆû®ŒZ£‹LÈ5‰[¹¹—ÿkB­°ëŽ†ôj½Z¾ > C „¨³ÉX9ZÝS¦ÒBúÏd&¬6ß@"­ýAý¬„·e’E§ôÂ›pªZ¡ª‰Â‚¦‰1¹[ivÏ²Çšº!y†]³}°Š¤9›•Î²¿1¬YsÔï.ÜAÍßÄÆ9ÅÔèl²Ãâ„¾Šyj¡¸)Ú&vì¥*÷b Sã€ùŽ§f¾p¢³¾æ·‰ºà4»'â“¶šœ£-˜ß^1ë§}H¹ÆtkVßêÑ!¹¾…×WBÚäþ5YÎŸ=ø—œÙeQó±>§W¨£ia'wz»p¨ØŒEAòI`äQ³ÈÍÚ
-©/a©o@•b¹¯uêUJ7qû¤§0ª±™¸\_î\°¸`	¯çØÅrv2Z·þŠCyw`[Ç>}÷°õÒ–$@+ÉöBýDÀ¬ÉsµÜf	;¤ô…F)M‰Êç“
-y Œx7WèE¾ðÐÇ.8Ô­h¬RôÓh=šúðÂ<Ð5âê/qPŒ[S·­Ý|fù¹p™¿4xB-÷Tx>à†éŠ¾ô‡qFø¬Ø 2ÂàgÇÝ¦¢0²–Ößi)ËŸÝÂsòky5ÐßÛ4¨	aäØÓ\°2ùC@‘d¤Iä#ºrÛ¹ˆ‘¨÷õ0c'$¢å4eÊ)]ÂKgÆ±Eˆ\ažD­†×s²Ü¨`/"Ð’A£w,Hwù^M„ÚYìE¿¨/…˜X7µ+ñ`lîÎÉè.î€Þ±Å"€.þt°ø:†ù¥Þ*CN¬BA*ú¤©:´»¿ÊH¡LñÒ¸›NÅÏAª(¥¬Ý‡”.1€¸‚ta`Ž5+ëž£±ÔhxþN>‘ãßáù»?¾­$Ü„­ßöxvJ±FÎ*`·š‡§`˜Ì"l­iKã–SW¢dŠêÿÖ¥¿b’³Ëž3ßt¬%ìÅÂ/L÷;èÁŠÁN	LUr›ª¶¼ŠJç^Ž|\´me¤hG´oE¯r‹swð*$›;H³k;#s„*É3/ñµ²K,…Ö†µ–^|ï÷&æ_ß[V™ØãÂ©´áOERçUçToò¬Ã…™]¢¾zÜÓx|<âŽÆ˜|ƒz]D}©<3Ðrtµœìº/÷*ÒwsS¿Ó*Ä¢<¿Ì¼]ó;ÙZCCålâJ™´g‰púË@´¢
-Zà¸÷^¼ÄAuÙÅ÷rK±¾õ-§±Ö&9Þ/ ä qƒñïT3(N‹©	ZÄs©_¦òw,V¾£MSxFÎÕfü.¶€Hƒ?C}j˜¯Z¶ž­Á\îüJb´Ãä 	v”û aâ——P´e¯öÈº+\¯úŽü‚”å÷ÿ½4žs)FÖ‚R(ïš IŠSÌÂ­âÀZÊ¬Èå/ùlJ¬P¿fÛÄ]M¦_ò‚xÑtfmÓ]í Ñs)èEQ×ÃnâÇûøáš¼`ð4ìëwPoÇH£©$q…«i=ë—”Ç6ÔF/.sc"£ÈG©»Ð1fAµ<¤-µ®ØÏ‰¨óKÈQ­÷l/Daã?ÇÄˆ&6UÐŸÛ ´ºÃ.ÓY [ÀK6Ë-9ÊM	-Þf%NmÙ_ÿójç’‘4tíšjI”½…¨,V?XxˆÒH 4WÌ¤yág`Õ€îŠ—®„}œ5+…ziQÒ>ÀÍ–`YÈ¸Û m%Üóä+ü”ÔhøcÁ²iXŠEÔ_‹dvû”Øål!Ïµ÷¼B1äXÐZ”öÁèd¬¥?Uˆ9í5Â“[%ãX»g­¯&a¹–»ÚPW£Å^m‘h6^0‡q$ÄÕdE¢E|þXÚ‡cbÚeŒk|HØl1Æ9„p	gÜí‹r[ˆŸÂ.ošÍZµýÖ÷­ò´ÍåzÞ¾ÚšçC¯õ(f:›î%!Ê£èÛÒ]ÆèØÜ5ƒù74jASZ½Þ°íÅƒüDÃ­Ñs®5¨#Ü‡»Õ2M7y¼œ§ß ˆÐU–}ºq#ä"-R–»&ãg9„^M«=Ø8 |q¾ZÄD$ómã³µIÖ¼¾¯ó»¥jŒÙ‡ÏÝ×äéµMMµ­ï>Ô±eÝëÜÙ¬Ý³øÞ—ƒ³~Ú9upömJ&1ÀaqÅqmW´^I‡˜–4„:úS”m´®¼s/êËçS€ˆëÌ¨)#*?û“×ˆÏ„…žÞ‘Qs'Q©O-§ÆYÇ=m
-ÙT%]òF¢:$Êûò6Ë\Ä²34u‚õ‰hÕ1>Ç‚.zÔÁ‹½ˆã;øÖc¶1ˆ‰‹É5d˜4Ápø˜ Œ”NUz¬¡üÄ8 ë-	‡-/+û×îe2•ë›CÈ-}Ÿ+‚.;QP)Xf`'Ê) jN‡dÚÚÎ(Ûûj#DÍÊÆ=EThÇçj!nÖO¢>Á@~hC$	tÂ‹[ÎL ûÂp}¬oªµ8!%ú¸Ì˜\*œ _óæ º¢ßóS×+³ÎXª)yüqn,¯ÚÊ¬ó¯w¯H®3ÓO¡wSË6YÞ(€‹l¤’§èýüâÊ&æB^oYôÕáä§Êhöð}öƒmpY©‰_÷Š¹g˜ŽJÌ–OØAN0îÀœ
-c J  M9ÞÞ*PQ§ÖÙÉ¬Ù"êÛÕü¼7é¥™ê]9eÒ½®¼>Ø”ÂFŸ„#æ$°yßIV~P â^#[žè.o›„q^ò'´I†˜Ýƒúo8¡BÕîªêÛ.wrÈZ©íJÍ58—´¶†´ÝÉ£ÅsÓŸ÷ ôR!E¨È¥>Á®~bn/Qtµ¤aÌ±@”ïx0ù,Kdê?%ãJÁûnS6JwÝH9)îaØŸƒ ·7Ò",ƒMÜÐý¢cå~<¬+ŠðÞ„bëáÛºêƒJµ–G?èÂžù0ÿgB úz¯2n¿&É+PN;ŸA¦ïÔÉœ)ôU›˜Û7ä]ß"C¶8Å¯/vŸóœÃžÊ7Ž=J‹i¸1ßÝy“ÁŸ>œƒ‰Jö0'˜¹“ñþR>€>­G²ó'Ä/NÚÖ)Æ¬Ôü€¿€d£™mh¢•Û»EóôLºÞ$.ÙŸyãÑÌš¤Ú(ej8`ë_z%Eã|D+Üªw«LÈŸ'R4ïz âõ7Å²™Æ0 5nžz®r:¨}zõgÅØæ¶™ o-ËeË‡pwÝBø-øµ£cC^›Ïœ.S}F8ÑÓH¸Þé…‚G²ï‹È¡È‰£KG¡¢¼tFô¹KÓ®aÑ@§ÕiÛIk0_ª™ÛîðžŸŒúlÎÞûÔOw\*äžød«\&Át,ÄyD¡OçŽÃ:­®p&	$.ËCø/!-°ŒÑCæTëK¯è–ª¤¯)’9ùBó-QY_]x!›"…îÐ‹ÕäßðÈl"fWWú}.Öö_÷è‘ÙÊÒ¿Ó(Q’äéá| éGãÛN>5»-­™Q„öÙ­Näÿ‡_E•=Kò€v¬êŽ)¾¿úbAÝ¸r¦K\Ÿ]·»ÜŸJÐGñf[ÏÖ(“±!€PV*=b²Os…Uª?Vý0ÁöŒ347‰"&§Œ&4f(úÊ
-¼‚]@¨7§§o.ºïüýb@ää¦Îj&w²¿ÓUžâ[Í™Ö¹·çÂêcÖeXœct‡òÏØU®úøµÜŒ{×F8òÎÁõuªB1fðÂfAw[ìø¨:p^˜5Ì+‰!¹"c QÔN#ÊÕ#o6‚òÌÅg¾ÊÌ3Hi¿CZ¡»ïÿ–œ¡rÍ'&‹u×OzÑ‡Ý›«•ùœw‹0YðËìl¼öŠúÃþ~ŽS¥
-éTéLƒì(h¢ŒF•šfþ0oóÛÁºÍÄrÌõƒ(„J¡e|Ÿýô›f³³ÈWZ’–ð~)Ôì¤°¿-–ËY¾Ê÷5Š±/M=kãXk½|§Úv+ê›Aè‡öÁžW3[ëfÆJŒµÎð:èÂoãƒ„¹ù#ï°I+ø»ÍÎÈvŒô”
-Z#Faïn‡êÐ¹Åm¢jùƒ²¢93Ý3¬
-šŽG\6(ÃÈÉ6ë´õ£!.+é'”¼ÈÕvAZ/u`ôÖÍê¼FUSmº>y3`(ç%S^™üz¡‡ÂÄ{@T<
-uÂâ¯z±eðiö·Ÿ²aÆÜäè@eíª“RØ²HÅ#
-êrƒ€Sd2ÄŠj›\)(FÒM²·„ö¶ŸV±ªVvµžÜ«f¶L¯?­C3{¼zr-±gc»S`,?Õ‰l2ú;¾2óZ*Q\7ïW+9µi‚ k•g­‚4Õ…%`|“]rù‘zµ]Rñ8íêýâFÅŽAâíÑG÷©"_þþÙ0ÄÈšÃ5{œœzcèWMQì†Ö¿%°Bw)tMQ8Þwg%à+ôáœÖþqùïƒ gMu‰t-¶ _¥Úµ¨
-£êÖ\C÷ÖöP=@@ÐiL­$ÇÀµ…ì]éiBÓµá½*51Q‡„ûÉåÙüÆ`Ô¨¬¥éw2E-?ÙÍ¡2-òÐ	7­dG~çÇ0Îkd6Ðq*Ã c™QÄŽoîwþ%“À¿,#ïpËõ—!0Ë—Æq›(à”¶ÆKàö qg”þ:_¥ÊZ w_ü'V‚k4ÍöÆêÄIR:ø<<ªr,D9Ý-gMuWÄÅ^ž°ÿlòÀÞÏ£œºspvkôB€UåÓfãH[€ýÝÿf	ˆ:HØ­jÚ9±ÛÒ-BÎéa¢µÅº£™&jTÜ
-ˆborCñ†sŽx„(X¸Ž÷ÃØãJoÁ×iò@E-†:—^h2”Í¿ª*™Ø‘qS„ðB¸g¼¶5·£]&P0ô6 ">®¢ÆÔŽtçƒún¸ê@3¸Å’:¡£A— ‘éå®]ØËÑÍšÅÁda&õX]y4æ'å:èØí :_â˜äMõÅ»‘]øLrÒ¤Ø®lR©3ChyQr’k½ÍÔ¸²Æ/I¥GëDù^/¿)îªÃ=u9½¥AT›4œÌlÂ	Æÿ%ú'õ®±gù-aWS®N¯¶G;×=¬Àï{!ã5"ÙÄ¯$GÍl›QLWª­DXNF®O#-çýÃ"’9å…4ëSp¨+­†çÕbæ:Ô¦YKT{a¤(‡ÿc8Sñ†Û[°Ûo>ø2E•š	¼¿wñÔ1»ºHP±Š1(¿Ú—ÿþôB5 Psfsþjg|	âa¯©Œ‹Qª.Ô¼ù±} ¬ÐüªV¼Á3œ,_œ1gq×gª×p èí*WŸ¿<§Ì@‚üaáÕ±²*L-ñûÌ¬¦%TæçVÿ¨Z§ùž®Aÿ7‹cm­kJÁ/˜OYUÉô!¦ób»òÿ?YzÏ­,Šv!ŠÔëPyÊ6[¤Á¯ò`:ç¥ 34Sâ3Íî¤ôïì˜a7v"Îdzö]š¦m¡qkŒ»‚gl:Û¹cÈE4´MáyPª«à´ž]A3á>aõ<·?W:šé­«ì:ãßŽh"N¨òÀxd%5´°$vÙ×uR¿W•êÃ­
-ÁNÚwC³~Î‘·øÜÌ	žz† þ5šhÞ†¡›s5Ã,¥[ý~ÇS‰ø5×.ë8Ýçâ8KLKœ^º”ßC®@QÌÌÜÅ«aÒ³éŒàžè…UÞ´¸)ößàJôb1½åÝ6`_åïÑuŠþøû‚›žh[Opì9:À§ À;v@#ÀƒßþcfÍ¼Zë59æ°­\=u²;;â|Š¬þu¾ÅQx`äžx$Ûnl M ¾È±‚ù+±Ì¬à¤ÑØ›¯ÿY"ý°˜Æ†Lq¡FC7çl% ŒÊòM.‚B4÷'Žh/re7ÜïÐhß9fo¶\² &å5P–~ø
-nªK¬‰&Ýså‘°oÓþš6¶iþ¥îšÎ“ÜŠ6-¨¥á©	ÝOÁ€û÷~0æÈd fqe°G;«Eð~•¸fÓûŠÄú°Ðš˜Ð?êP‚(ÞÓb+–h–ZÚBãE=r½ÞY‡/ØMiõ³‰ß˜¹gçSlr… gà¸@ô£ˆÙÏæW‹í¶quJXØÜ³FýÖX5ê„µqP"ôà¡$F_ì¸>­QñÎº1üÖSúT‰U‹Ä6Ï¶°áiãw ”¨¾ªt‹ÝM)Û[pEÐ¼ÚSˆ°„ƒ°Îk¶I¸^§-ÄÇH¤Þýš”¯qí²1å{±ô}ÓõPÍ
-½<¸˜Ò¡žÜ’7yÀ1íhÌ‰Â!uådOJ”W‘à[Ûë„òû!s¤½¦H¯vO1¶=F©¸ÜËÉY6ŸyqÊ¨å@T2ÚDƒnIbïŒÓƒžPñ¯²Õ'M^bÄ²øE`®d›¡ÙŸùï×ÉÕ»é FÄaÜÐûØ;ôMÖÒ7,LiÓÌòï>«]Aæ¸³‡';[ba Bö£Ô;
-‘l¡j`¶õv|
-º“µ‘?Á§O%ÄÍGl¨ñŠÿGu'1FAõ¡@\Y2ìVS
-ˆ$OTùUµ8¹ð^ûH[0P[sµ\†;>8â·E”cì+˜hlt¶äû[BÔfŠ#ËPÉòÍçEÃ$VxØŠý6NVý]|$ûàk¬œ¢Dä ¬½JúÙG[„jfÃøõ•T1¶3…0SÄs…f	\èUÓ¬ËáQ÷"£ªOègì«l>Ò‡ÄÞk	·†FåäƒÝU¨ª öÒoŸ±	&mÑ·YnueO>«ðÁÎ&/˜à8‰M}éƒ˜ƒ6I-Ú÷T{ž‰‹èxdˆ¬'ÕíëàvÇå,€’O³P=soP(Ò•2Âéæ¶u6üaKþcÊN*0ù÷’•7¨Xõƒ¦ëÅƒÇXzf!þÁµQËnnP.ñ%–™„²‰{wq{MVða3:E[OµRafeXùìDy†ö%¶© 	‚†Ô/”süÑê.Â#;ßÉIœ*­|(ÅÝÍöÌÄ¬öfd~PXMÊí³‘4e&žýžQe.R+:Æ¼d`ª$§rédðâôùãj–Ù»¾$T‹të·©éNG½æIù&ç)Û¹Hûái‡Š
-û¹yè‹o™Øä´àÈcšêçcßêa5ˆD©©µmö~IÉÉ•1¸XÅÍ*hÄ~¾S×¹'Pà(²¨—‘«°ìÅº¯§	ìSuF°õ3?Íi~¿µ:Ê,c*|‹ê&UYåÆb-êìkyî+dbµÖé‡9o–÷ËF±ä»:#óQ¯à¹ÇP„Žoƒ±ºŒÞœž ™:)¶}—&çúaz÷ @V+À(2QÚÙN‘ÕnD)6¸"*¿"ž Ëî&D…SÜ3\ÔÒ¥Ò^µ¹1NWõ¨^Zw¨á}Vg¹Ï’­bZ(®ø„öÓ²«\‚pgÁtÆ¬lC¶-Ó$StŒÊ­a‰+€DÁã©(š É<-†±²*sý‹šH)6 š|B$¥/næ	¹„@³öÓ<PWx÷±o/6gÃ=Ò0ZÑ¬¸Ä	¹ÆªZŽbÈ¢šßQøèrÛon°8Oø×Ü	™;õt	3×›*Ö½vÁ‹
-£à“ŽaïRPu:×ä£³4*FÙu¿íÊ™Ü`¹–ÚS§WŒ!oÇ\Dó\ÉÏ„ùóõŠB=íÄúrõQ“_	Æ+ÎÔßËx©ÄÝ»þmÿ<_ÏƒI ¶¤Š(T€Tªçè¡Àÿ±g—™A8Nu>þÚ}7ï¥¸”á+‰.úƒ¬Ê¶º¥@2÷¦ô@«žBæ\¢Å=zH)Ú%@ò,n$ºW!¨}ô‚*àçÊŒÙ×ÇÃ-³8’…“žšÎO«7&7ß…i©ùþÏ¬P1Y-žÐ}›ÀîÄûáÒÙ®Ÿz`ïKt ¬Áñ”¢-Ãµ/9(¹Ñ?ÜEaSóÏÊé‡Ôz{cÝCÁbáÂJ»É®h	ŠPUðõæŽðô‡Rúd?TNPÏØa÷p±«r	^‡õðÜ÷¿ç\UOÒÆ@Õ]X‹oð2Õ›I·­²B-ã£'V·êè¹õæ=Çêë wl”ââÂÚÒ³Ná«ÿo1IÕ]Îº%V©úFtØad¾ï›/¸²¨®Åb8>:«‚Ý‚+üÃãì¾çñä?—­¶¿çÔ¢¥N>ÏÆ×u€ƒzÿNž7t-²Wñ™Ëgx:u+W^U[Ž@S/ÜX>¼a
-õÝ;‰ž³bGÌÈËçG
-ˆ»÷À¡ýj¯ÇrÈ/VõECùn·¡Ñ :ïSü(ŠãªœaÆ>2šc—Ÿ¬Šõ¢Àùž9·?Ã‡À—¬ÚŒs&¶¾/-ó¨Zç|ðK•ÅÖë@âi‡@¢P-Ç}üm6ªsÃWíï ]ÓB\à˜¨ø›Õþ8Ô(Ð3ÄÖÊL·r.c˜ÉéŸã6ú~pŠdZì¾šä(‰µ2ÉçIÈ2ÕÊÃ…×–°ýß‚C÷—ËÃÿ#ñ*9åÀK2nöæ©mGè©ÓQ€õŽ’9>ôÁ¾+`’•oÏ)#¿îuWû&ú.€ç1Ç¤aB€ë0xÁ¤Ÿ%)?šªl}jOÖhnr³.Z‹Eé=• a¶BB?\_}ý7á~˜—Ã[!Õd&wPÅ×_ë”‘.‰L&¦F´ô±1HmµÛë@2×¥d¾@-“ºð™Õ·E3þ‘Ü”Hv„”søItªÐÏ„L3òªXžøÿI´¤6X6¸Ø·y¦èH`9“NÂÞ¯Š|Ló¨bå‡M
- QcÝyÛÑEZ=Ì*Ã6‹›*?3×‹ðÔ6ç«ºA59	)3zÿ§Õ8x`¥g
-îÛí›Iÿ=Æsˆü¹ÜPÜ›¹Ö¤@QŽÂ{&:œ²b\HtMŽvšæÏµ‡ÀµÓ¬HÊ‚vÑ}Î!.Ñ´”ÁÑB™\Tû¾ÀËEtz®­óËgà´öÙ_$ƒ’óŠä¹/„ÈÕÑ R^9©‰ûXD¸~íÿâbg`qó%ŒÌ¬c–ñÌçÚC‘zÑ…«{'ŒþŸ¢ÊS7!ð±a
-#)è4±ü÷Ž,œtŽVOm©9èÄc™EæË­¬'ùzµu7©å¥-“Šô¹z‰BE¼Ò~bM ÊBÊ’ésõWu7Ô¡s`Æê}´ÍýƒÍ½Âcëð›¸ÿY¿Ð²ÒÂØ‹÷ƒ¡gTÿs=ú``G"ƒÓ?IHFœ;¦€n©2Ôgêø¼ßMË 4TVghXaõ»ùŒ¥Ä‚,¤Ï«å%Ö˜vÉkèZO¸ëi&VF¬$…v9¶OPm2	s‡š£É]±ÑÅ/1y¬àA5[jä®$¶¤Ò‘tÛQÃjêt5à¼Œ‚„¯˜Î,9™x`ôò¢™šå¹M8Ÿ6&³HôÜeKì^=p%üî~ôÁÒFµ›4ÂŒ\ì)È=a4-U™À÷(
-„Ê‰œo™!YÂÁ¬·|ZµÐ²Þ`©#¸-MzŠ2Ù©¤ ó¥~ô§×Qü|Õ]$½‹Ž›:ãT^ÅU18Ÿá Ð ©ÔJ™0>WqZ Å
-€}™Q_ú@÷UŠ÷ìI.jàZH€;á„Ò±q@9uÙæÏuy©mÍÄ'çHõõ’žwÀAAâ‰!Z¨Ï&ù;Æ›§dêOú7KÇ­AÈ„ïGÉ:´y¥ÛU]e<;7þêOû·Øcò¤Øèw©ÅIœ,am5¦ú¥Ò!è>•ÍŒ\Úd‚ð8.õyÑán;‰^—.[|±+?_}ø/þé2ð'Vlþõ97«ŠûÖ²%;²N‰ýª”ªÑíw¾j·Û>ía±`_’ªÏ_ò:æÚCÂ0Sæ“1‚bÍõi€sA§¦ôÓ˜˜1†ÁØ€÷~ÇäÀ1uâ¢½ò¨E¶8ômh‹Ç·üŒî™uÈÇ™ÖzHñA^Á"€­P<Ä™ñƒãnçÎœDlÑ>UHUˆ>¤¬áèé«p¨gp(Ñ­§”	 «§{Ó;žHš{j#M*–6…ðýöÁ­ÀSXŒõb×…ÝYí
-8Is×oÎÌL¯Ê7íøRè^ÓJQœ9Pâ"Úê·ìïêÆm5Táþ“5©ÉÁ‘'˜²B#eæ!	Ñ÷Zñ TÓ±W
-»ðˆT’3Wà
-EöeLËÓÉ´ÏñÀ°9ˆ)äiåó¼ª
-Ù6a0Ûml·²…ø½K}”íÍ!{H1£(”7Û4Î¯Š|–Sï}‚BVýYrI¢€L£×xÛ©ºËaÍtZöðáÀ·H]¡îp7Ô¡˜¥¹Cpóê„½^÷³7Ò³®D÷ùçŒ©ÈU…z8{7 hañ´_\±vžløCÍì^¡Øh§œé¬_¦žE‰OÇDúè—F]àM‹‹Nö£ †—sªµlž ‘8ÍT/6áÅxµºê¥¼2l¢ˆb•ù¿Ü+B$QâtXÙAã iX*P”©9J¿>"”¢4öÕÄúÓQ±ßœ®”óTƒTÃˆ«˜c˜lS°¨@·kON$¤voýwaøL­w&Í»‡eÃÎR#TDñcñY9³è”™NÒTuÃ¢U\»ew[+EþKv\@2!µÙ}~EÃ¿‚rw‡Ç„T¹xÚzTè´÷Šq‰ÝÅúé¼>C§¡¹äƒm²Òh¡¶[#j.†ûÐÓ¨0äïËŒ±ò’Ðeæ:<\}«3NŸrÃc"èZ{’‰Kh¦ëðÞœ7ð¢f%FŽé›¥?…ä¯Ü5T…<ŸcpÇaP‰tÙ#Á+O¿/îï(®9‘'U³†…ö	z4ƒ„Ë
-u˜×÷B—\Ú±‰ËÞŠo#µ9|ÃßzõÀ·Ö¡òÛRžuEúCUÉ´v,Ž¤ë†qu®{¶eeÙNfþi, Î~•Hé‚H-o³Â4	Qpô]u²ühøYŒ2fgkÐËºv y›>úþJ«‚¥dêùWî?²J²$ã•…Ñƒ»yÿui*~ù0ÎƒŽ{ÿæïöœí›(È«ÏºR\ôŸ‰È?¥t˜oú@Mdoöbõß7©Â’[8ZÂ1ÀùPB\"¾ÇFg¡dš*Á O¯	´ÇBÞ­œ'~g«³ªéx/ÞÅÃ%Ïä]›ÞAü‘žnq…25L@¯»d^g ÝH“¦|	g‹µjÓZ>bñº‚¨­uAý`¶u¤éhw¬ƒ ¿SÔL’½š¹l¢þgî)×ó"Ä§Bp´ˆÂïNãQðýãélWù“K3îÀ~5äpo™ƒ×1›Ø½;\¬8ìÈ,î*­Ma‘’®¥¼êú…í}ôimÉA¸¥Ö~iª}ìZ3ôç¨9c»Z÷ŽÄ µòë¥&„‘¥êoîÆUÆ>qmU¿p³‡Ä`Û¢j%§n
-Sp4@›ˆ«7š\gÞµ
-ßßMyvØŒ-`å#×£ð"ñ¯s]sK=Ðª0ûqDg”€V“»nEÞ:]wµ	ZT–v+úxJA’l?AtÂ*åÔ„R·i¤—Ä„—Ku×ØÂ3·rÜpeºÜxëqýhÕPÌ	Œ¢•~Û¢n>”
-ÖSÚØ}ì"dÜí6\\6Í¹˜oÁÅãW¥ŽGaÎ‡eöy_Ý	µ¡µx)ô¥:s”Ÿÿ¢5ë>A;ø@È…³è¬jeFx=Îi~}o	•\BáU!ª’îÊq,ÆÖšt÷¿ö„bÝñoÜ1ÓCäíÈ·:UÊgòtvÀJð WøçPÆ'ÿ+þ*T~c½—ÏxÝ…¨5¤·Ÿ(àåóWE­ÏÚóß x®ïbì”‚[T½Ke$ƒØ¿³ hÙ«	ˆYò-Uz¨W¯PÝ|XÈÀEñÂÍ¿Pæi€Þ\y‡áåý¤©=P“&à†fI
-ƒ:lq(ÊÉy5½¬õ,eòLþñwDíÆ}"Ñ@À¨lî¿ÒÎø#¯,{òG¢–”ÃN7Md²ˆ3áúz¾÷Ð¸æ
-¶ašÚ,‰¯Ÿ~t`À)ôJ¹JW02¨MÙË„fÄþ½x|4\2,ÕrESD6È›ë<S}í²ö'©ãë
-Ó·^²mÈâ)&‰ÖHdÑáb£þ-ñžÔj¿N"„Ÿñ¾¥ôY8`µîÞ°I}ÓS¡?ú<Mjü6­äZÐ•õö¡ÿ¨Xxuè[t†.ÇµÛTpJñÐ;. Íî÷Udrmð¬°ÿ ´Ò¼ËHŠh \ @Žô‰J—4®‹u‰ƒê_…Gˆ.~¥²ìÎzé#"`÷¾Qn°$»sû$b_vNÿg…Ç€Ò7x.TÛÛ¼šM(¹îyg‡7Î]‚&˜âgkí“qª4Ûc´ìuO¨^uCé¯°›DÚ©l¾U±g/ÌŽ#rÁÜ‹Ò]+lÚ÷~k7_ŠKÖ6v:2'°
-µÿùÆ6Õ½ène)°;º
-}	ÆîòI…Q=_pBMäKÞý“[p¨¡Q³ÿ-ŽáÞR)uÙ9ù¡®°=°*CHB¢ãŒÆ´Tgý^wxÆFz]^'%£…Mq§fÿÌuqØÒ=Ñ‰¶Tªš2Ë{½¤Yÿ[5©÷AgUBÖ¼³J.ú‘^>`÷ªMðkNH‡lÄl2Œœk2ÿ–úg;v1ONá­LÊ|Ç_8-„vN¾ôâh"ú¥S#·óš¯íD-âþEñ¸s(€ˆ`oŒvk(Ù)¹t*`1d›2{$"p–….uÆ²hÞëF@±t»Š9xS*~•I0-'†7oÖLóùmÀ?»V~&†^±3^`d­èâÃS½_¿jjçœ/Ë$ëU<y3›]`Áqí/zõ‹Q·|õy3Yü;àÍ»´Ì°ˆÌCRÙôp¼¬`eÝÕÃ=J¢I“~õóbª†(òâ¬ŒÁ·@Ï¦ïŠóÁŒab7}µ‰|mP—µ^	‘|5,-õñ¡÷SìÚH·\i‚Ä“Líú,Ð&~A>—•à,ˆCŒI iŸ¾À(¼@j`Ð*õ‰Ú	9£(,éÙßÖN,¤†R®„'"es —Öisv'Ú#FkœKrÛ’ëZ?ù	@ó+©ƒ¨ÛHóüÍ}­°ˆÜÊV²SÄ|¹‘J«’åmâA
-½Ý§€“vãý•fòþÿÜ.¥;¯{ù4öD0,¼]‹@‚:¿x¿Ø;&ã÷Ãé"g˜ ê¸É˜|ô'^W¢füÄûÇ<ß!N²ƒŸ÷ñÿ–­HÓãñþ•¸Kê2]¶´ÚÙ+kNó«)Oø“PÉ®ã¬~²E Þwî°ŸL%¼uï°Í×àßŒÏwò:sƒ×ú…ÞÃ’‹ÊºY!B<srÉ¢‰·@Q¾žP˜E"¦BÝ7RC@¤6je¼-SGZ^¬ÝÚ(—À•:Ï	_ìUvˆÚ	²Á#–Ãºit«SPôG6ÒŽm™#¼švPË±‰óÛGG Åu…g6¸¸¨)-¤	Ä¢&:oáÜÙ6Ø<µ½0ê o(&”„#[LIÏM@±ÉìoÖnÛóÀ,mÇÁ÷}‘d\¾†.µY%+I‡}öæ’b~•à‡Œ’Õ'.Ÿ‘6=Z»˜r£´Ç„à:ª[©½uœ#š¢e°‚9
-¸ìØn”R–“ýµh!ù­Ð«—Ò Nì>ªv¡³œfÜ§Qñ#+jlŸ”]§µ§iOõY˜\
-ÄÙdÐýêF[·,s£C~®îU¢Ò°©ö–	DèÓ—u²Ån±Zù•ßG[]}¯U>nIÈš'¾·÷¬:¬a¬­"é‰fâ»¢0„ã¤a7ù%Ìò{çµa0Óvofï›œŒLÁóûY&£kFÃ¤»—>Û½Ö±ÒbäjwIõHW"ŽŠßX=¹ìœ$Ò$\«B@ˆ.Î³	jžöÉu’¬³ðÓjÉOlÒ(°ô³eÑ˜&7I7•¦ÿ´ÆË«»¿¥ &ÁWµ¢–ÃÍ+éîÐª•vÑ.Z(!v$]õüÜ3e»ÖãgA¦›ñ*
-—;õPÎƒµCödhJ»ÔX?mÔƒôš³n¥GINÙøXšhÒü†÷òØ(“±°LìcüàCÛÎëÛnÎj¼ñ$/’(‘œÄ$Ô÷åÂO§²a´Ä¦XƒA±¡_—%#¥Pú×5Ëöè-=>Ð•>‹ÅÉí‰„äro±_‚$üDzÁ•ÚÒ‹SvQ•D«§,ÚDÔw‹£b¦/]J=§)¼u<}o€gåÔR°Aë–÷ ›‡8Ng|Êÿ0Å9=Ù½ˆ¡¸V¹jûÒîüßJ	„P½‡Rò7Æ5XÏIëƒ±ø®^ –ºcl\!iüÓãÊ·Š×yËèlû^/cÓèå³
-BšÔÉiáÓ¬@W²cƒ]=X®;§Û‹ò#M\|ÖL;c~ni%Á
-!Läš\vVO7Õš¤ò(TZûÇ½XúÛÐQ éSœ¼¢MJ‡ðöt¾y<Ôðÿ†—O:
-wzãåêFîPpŠiÓT	}C<ba¶.$™÷W¶¶`ÃÃ&ÛqðÅÉi•]-e&g½ð/ú¬UÃ
-¥¸‘v%
-¯»³ÿ|sPF‚­Ùºµ½Sm‰8Ý¶•GTÊ½T8eH b•QÅB¯îhãÈ!sÏ$›qlC¢ë7Õ$aÕ¦™|“NõOdý;ƒÒËm0µip÷à3+KVž{™Ãº)ýf‡ÏótSÞ®~ÙÌ§4L†ŽÂ?[®Æ+0©OéÛ†ûæ³8JõI³ñXûmÊÖ¤Jë…Òª™;â&àÇÓvü$àó÷\ûÅøøW ¸é¹«"ø3Tä½ÓÊŸk–4Wn“‚ÛTÿ@Þú9ÇôŽø•p-ÁHXè‡²4óA³¢Ë{†?ŠfC©Í¥·0f±ë¶²bËy z'µSe·ï%Çj}‹”,4bèv™ß%§ôÙ—P}€c±Í
-T¤‰æQ)ÿñ§¼‡á€Ÿ˜sŽ“Æ#Eñ?­è*–¥ª8û È‚!H=&¦í¨[„í×|¢s¿«Í®F|EÊ/>^ðaÏ[µårÉQ?iÂOëykQl»-¨øšÌ-Ž¹+ä©Wç*‡ˆ'ÄNø=¤a¤7üTmiU/CÚŒç=b¥±n]h	1}Ú¹1Ù3Ý0ŒçšAÔÕ­^ÅÇáôÙÓ¿qÁn1åýÌ}ó!Ä‡<üºÒúœCzQŸâšë+ cä“ëºò•yFx§,Ð+ãbÄžJ“«ÕV 'q:þDRï¶ó¢ŠøAdH§~I‹î9_ç&~~xïçÅ‰UÆ¯:ÅŽè“{ÞhU[„íkþòMVÎ Yª:ãæ–¶5W^ò:ó¾Ü×O?lA{\DýÁ)A€€_ïð³…GC”-æZ3%.0õdšR}ÿFžÔ¿I«6f6#Å¨,É@Ñ•æàˆÓ7¦—ßx•1%½²‘ BKãp¶¶¨Ø±œ
-ã®ß#n_m6™;Í‡îõ9ºe°çÞTÊœ©'aÕvùTÒía¬’=sòÛˆKò=c—Í´ÐLqîK]ÊOTOOZ¯ƒ2A<YÌ"Áh*1õ?Î}4ô@©¥•ÃÓH¶ÊÓÏ.­þ€^ E„9·ëÊÌ:pÚž”l$/üt™GÝÓDj#½›yC™ü)÷CŠÃaKF—p(@Çß'Â(ç\ßEWÚ}×-ª7Ð9–4.‡ÊPT·À89C×â_|ÑØy™~×ÚG,‘euÍâðÛzY]/ØÙµNôµà¬é¾s¬¬Ü;b!‚>6î°'´®&b`Ã"¶~œbäTœýoŒjŽhËµ`§n°C6}o”þÝØë¢»¨aØ¾b½ŸÃ ,œá>BO°¬ð# GúU&z™KˆðXsìÿ/¬ÅSNÏ‚x³Çù®
-:Ea™\•Y´¤óåiÈHY½¯-m©k¶*œV`þ·é^ç×Ø£q ±N”^Œ&qìªe™ˆO‘j$ÚÊ"£n`O{@aÔÀÇREnßä'ìqw³ã”¿Ûƒ ßS™ÑÓ#»f‡ö5”3bˆ«aÅÑ$—|ÜŒ´ºE|³Ù¢×
-”}º~ì)v}0À›­ÕD¬t”¦ã¢ßé³T€vaA˜;š~¥šM2Âh~ìDÆ³Nóy˜%üR(¡‰È§±—×ÒZý¾µ%ª´¦9š²%›{‚¤RÔ—û°øm"¢¡Ž×q´<hÑÙÎÕ#ç@*M‘íqòE9žÒÁæS3c™Ó9¡k£üôw²‘J«‹Qã æÔ”œ^àZPžÆT®×äÜBœ•ê	8AÜwóÜ]˜‹é;KoAüîP&iy]ëpÛÁÞuŒ†¦‹¡‡Öcdu›	w9H×QJ>
-$°ª§«l$ÉÑImQ@Þ«+›xGÅñ&JÀ”Ò¥­Ñ”œÞIü+R²¥LtÙ2Bþa&ø[Yœ‘ª’|ÆÒ¼fÜI—Ç DÁHÖ`Î8ŒMr½ƒ8ž}á…‚åÉe´4X  á„y©(ç±ÍÂÅRÏ®Ø?Yj%|ËcI²P%XÃs2«>Ùzªü[zK½7+WûÕËujøo÷™È§ÍkP Ä*“ç®‘fØÎ¥|Šå/ƒÓ—ñ)y”ªŸx†ÈùcQ>.ÈÒmUk'Ú’mtoívwÏÝ-É¸Ñbì7±ê…nì¢è6´VÚ>:˜ªonøÔ©)£åy/þˆ±1(ËØU© ÀG!ÿ#—ú¨ZÝŒw9[R¸´ÕžA‘4¦Vþ½¡µp{Ësâ'ÅcÐ7‡=¦ô6ºPWÈá¯¨ˆüÌJŽ“¼ƒ‡WÜ#îRECÏyÍê {Y?rL:ºË:ÜÿÚógt?aDó‘9†KÓƒ3‡#/içîùõ‡‘Q‘Ï˜3i¨õ·˜­ˆ³çL)ëß”¨ ¼MíÇGüÐ•þµØî£†ÞÁ˜‹]PÙáöÑ—@Â|u ó6§ @‰ë<ïå”	¢ÙÅt×7öÖ‚Ï;¥,˜’·t®ù–vL™·%ï:\¨³ÿfùÞX.-Æ]Úúo;ó!gh“©	Ö+¸(6½ÅÖ¹æO9¬ËA“‚W|TèÖ;¶óÉØ»=o÷%2:E¨µïÀxPÒÏ‚T‡Kži®ù¼ŠlÀ˜4i±¥KQ"×fÈÃ³•5ÔLÉœ«rkï|¬º+ÉÈƒ®…o²F•:@»wò%HÒ«  _¹¥÷V©‰´œ“Ÿ¬Êû`#B¢/ZªÌô©¸¨ºù¹P¬UÔ\ˆ;4»d’G·°jxˆQ8Â¨(à ªÈ69½Ä*EæIµ†_…é¸~Ï’ØE;0Õd›]íoC]Š5AÌÍ%%IíËè3•êÇ˜¥+C·+úÜpÄ$NAöíßç"'½î¤Ò7ÅK2¬@0œâX4Ç¯´×Oµú`å<€ëjçp€h°¥þqnYþ¨°ÿÓDÒ\^þ#¤SŠ[xæU>rŠš™Ú§.N(’†<Ÿ¿2¬	Psã§†â±ª1pÑÏV¥)64¼=½´ÏAXÁ†v‰÷ß;VÔá¡çµ8P½Ÿ6ðÞ~èë•ýßgï¢ø3x5ó«|×OÈO]ªåa„_(ÞÌß¥Óª*ì†-Ç¸CÍØœ|ý¡Ä‘ßÂË^ƒ¿Tõ·Û™j@üº¿ê‚’B,¥.«¸9ÚþdØŸþ~`ÂJûÄ¡o/êßœo¯Ÿ°”à§ÿ–}rb^—œ43Bz&GSöa?½	–]ëÿÖ.ÌÁ š+IÉ`²ICÜ1y(´¯9ÐË†Z…ošù`QŠ/.ý¼FCøI›ýpy9³X”D‚B×„R—r²ß­åÌzQod¹¡/wDaRœhÔ_3‹BÇrínÞM×%dØaºdów$¡¢Å³Ï¢»=÷.!Ð*§_#Ža·}õ76IY3{×8þÜi…½€ý0 £›Ž¸!òn@4¹9)'1ÝÕ<÷Qã£©`g¦¯¤/óñ­åL= V6\5`³§ÉCšÖ»+Á©9áëÏ75ö—©uE„D«|…|!É!·xš©æ¯!úWý`™-ËÛù9¨X§b†J>µ”•É‡EUK¤®sMJÒiL,SÐµ!M¬ûÖEq…@©@‚4BÏ²¥ÆMÕ
-c‡7È²¶%w)Êð	ÿ®õâi@þ©NbUñì¦þù™3¡H
- Îð6(ðžø¤M€£;«³ÌŒ¨Î€5~DôŽqôÉ·ÜÝ‘­¡ØÜ¸ Ô¥B»Ëê¼öËðÈ&é/òö¦ú¶&nKù¦¶ÎürSß—98ÊÇ¯˜Ò]L©îªÙ1{õŒ·Æ°0%Ü	Ø®¯:$±ÓãôFÇYç¥T ‡æK&ZÍÿzS¬Å>W™Îà îã^ÙU÷òlÈmþ  a¹· å<Ö•ŽôJ\®rÐÙ²\&çVøþ^*ŽQ+A™sÖâ kÏAq‘0$õP*93Ïð‹p~Ðo':ŽÃ@‰¹'ç-æ}ÎXè¬Ç2Ž)b‡wM…úï"ÏZ3Aß`ücé‚–ŒkÊšÂžÕØf‚'©Ùerc#å¼¨x8Ÿ‚²dS{þ­K¨7ïª*ö<’úÉV©XPý#ª¢Ž3›t9ÕÈAÖdŸFZ)-XÍ|Þ5Ý&Ø£G7˜ƒ·ÐŒo1d7¥¼÷Àþ\€å«jûôß/«Ïýà\å*‹./ð±—·mB@?r1÷ýFRrî|A%”­V‹Eª8W²1‰|ëÑŒ6[v;Ïýxe|"5TÕôvy·C¼Ó‰†Y°‰fï\ô²ŒÕÈµ8YÛ4††£ûy‹+ÖRw°Ùy>'¨sÏžJe•µ¯Òã~L`L¯ýuÎÑ1›à.ŠL¤¡mÎ¼£¤ÁDz,)+I>bo°,mËþö	¢
-ƒ®/¾Îß×tÃ¿Æ$åø­|ÑÕä˜‡cæ…£àDls8©[aQŽW‰š’Ñ¾HAÇf|n­LÒI¶Á.)ð¸CÄ¶sQ.®éÄ¼ÑK}…ÒFÈbB“t`:dÓ‘C
-sÁW/VQã0ÉGgd4nz%ãQdR¥Îa Ì²·–Ûúð½ƒ®Ëò”"Ò¦a÷;×þ(ÌMXòI®?Ž@¯O¿>½oy\ÀŒý¯Æ«f×TÖ¶…ÖÚ½Ígù|eâ©wlCÙpž¤YÅÅäÄ2L“C¤Õ²fµš3âÆ:9µ,ÕÌúY)øüE¨Io]g91DäïKÐœ°wŽÑ-Qlw±ºJÜw;éuH×;a—1@]™±ì?¦|—É³4¨;xF7HZ}OºŽ<‘ö	áâ1Ýƒ|J%­¶#Ú¨É£1üiˆ!gƒyÄBîÿq3¬Çp¾±’¼CQo,¬OåŽòÈ¥^6eÚƒ®íô›!L‚ z•¦–WW8É NJˆ]ØÅ¨um*S@B}¦cÎgŠie|><¸H(ÉÈ”JkÂENOîFÇZCÒœ€6'=g89ŒñAäÑªtk3F¬‡ÐåË‰´§‚ÄºÚ·5æ‹‰gh1õÏ×PLXÚ*8Šk /ë*:ì6_Úª™&ÖdHÉøÇ[€ÒUzó³¢±a8K@cò ºmËä€Ý½HU«ñ¼´ç7žYO…·#¶ÐˆÍ)'ëƒÛ¿ 3™E÷ÙªþÍÿ8š‰zÖÿèÏgQÙü^Æ »Ekl®´– v°:šøÙÁp? ¹y u­œÏÆ¦€*æ Œ±[‡œÝEà„\ ©Jñq:¤	Ìuçb„¦:ä•{@9ì'tdÔ¹É ƒ®âb¿ŠÈLN^¢Ö‰+„îÀwêGŽH‡i>Œ+|® ËWÓ’e¤ÍV] c5e—zÉ–‚´°GY¡A°óz´ŽÕÖ¡çÐkáM@ðF¾(Õæ;‰ÐßÔL‚d÷È¶"nƒ¡Wø¹Ôù/eÄ¹¾úäŠ#U×áÌ€ÂÛ­+0­ÇÅúñˆÄ4ÊÔ15!E^M&g¹»@ZQ¿ÈüdSxäX†“#=ŒV®‘¯'âiîN>%I,%‹N–ßDW·C
-‹ECN^©RÇï–ò;ë+Gs†^v3ÒÍj…üFYÐìèìxPO/½>O~™‘®§!u D#¦÷ì¨CÅê¯ÏÛ"™Øœ_ä6}éC~Õ€Ÿ#†l.mÌGÖcµŒÓ%Ó’atÌ¹ÅQ(\gãž²÷7µâw+mb9©|Î#T!£õg@/‘¢xýOgÝç,ŽŠ®»m]¹†ÐÃ÷V#Û\•¿» 
-=ï §a¦wÌX¤šøjÒC¸%¶‰•[È&æÉJ&÷¤{’¶D W±_×Ò
-ô1ö“’ >€eö>7;{U85Û7­rQ•;h6‘|§<q»¾Ý} eþÌLÈXÓYc“™ó$çcÓ@‰:gdd€1üÉûÝÀèW§Óï-¿ö¹á6ÚÕQç×ò€›ðªõ(©ôió^c‚äÆ°QùYnªók6ÿñÁw§Z
-Ù¼–æTû­ºKÔqq5´5/êÄ<hÈun}B<åIº`Â9”NQ¿Z]½p>VëmïR9‘ž›–/ƒ’³¹ ¿7-’£÷»Åþ*¦ÞÊ}bØÓçÇˆ)“°gÊ_ÿ0üêà6­Z-vy(ÇõŠãd…\¤,ÚîÂÂ[{L+Û©ä-o¸7voß¼„útXÚG;ÎŠÓxE‡¨á.F`O3É$7¯jÌO–êdÁ¤IÉsaOUÉë›(:©zÈ€º¶YÙLŒèn­ïÎî¨Ëlüvf…’r÷ÒÒƒÚ­Õ›êº†×ØÂáòj[“f;Dàß€û“1|A¿(Ò—²ÖPµ_uËIºøÐ\¼Î±½ƒ˜²FU”2‚¸äû%µá¡\2??øº-4¾›»˜û[8>›¡§¯i¼©ÕwšËfœoâ¹¾R»Þa©-Ý¾ÞªôŒ¤nRÃú¦æ&£PN±âõÆ¥#ioXã=tuÑÔã›™ÍÒ:H¤KIÍ*\ø?´+Sý×=4Ùm´¾á|1uø«GÖ3?ÊmëeyƒpYb£­l |§€r2:€ÿ ÐgÉ2|M(•@þÑÿk«ªTÝ,fýƒº_<æÐÙdãûã(©sÀ€òÊ|Ë¶ŒàçZœKæ+»¿/NâßÐWžë;Ö®¶æýj“„5äZë	afMR¯…=‚
-[ –šS²;:‰'€ãÜZäè B¥b{ýVÚwš!BV9ƒí™Áa6óêØž†!»–&¾GTp^Á
-wü££$rÔÚ²¾	Ôò³ÏÂ}ô&pRBLÀKëAâÜ¢‚!n,
-*9Ìå¿=ˆóÌAþÛ¸6²ú@rˆÊmÍÚþ-‡NÐ[t>”­MÀ¹AÏ k#9÷ žÞ„	š#•ä…dÉÌ–­m2ÅªI±!~Ër¤èM›˜ ×,¹zlNýì2  Z˜Ï¸Q§	·§—@#m±;îE0àf	&gàÏ×Ç{—ºKÐj;äÖîeÍˆ=ušÙ)£°MMŸî¼x0ìå,I²‹*ÓòCK²ñP«?¾‹$`TFõLrç‚º8Åï§‡@mêý$ŸtiZj=Ù·å¶t»ô3vN1)þ1–º*ò †ÿ—vKµ’šA@q;Ù—Z¸¾wL<º§#Úe[8*å7Å©·XfØ/§BøS}vTùò„›+€°?@P K*˜tàÖÝˆ…xpó—‡JÂ$¥5hPõ­„\9ÅNÆM]0s}Žê–µÔŒñÜ_( N7¡¸~JÏXè_žG«g½i¾ÉŸÆåÅæJr-Y›¼'áK×ÎšÃ3…z©OÕX"d,:Ïmtµ«8%‘µÎ&ÀÛÇäå[¡è´ßqKrþNà½ó“†am*Á<V¨|:y”«¥Nf` Ý˜ìg­-ßá×‹‹a÷J+ù'Öu3œ¿õãT«b_Cãói~óŒ*èà³è—Ün˜dÙQØ°‰üÜei]AR%½†°+yO&nÉx–G»Ç±žBkM{‚}ööõ¯R°]÷ÌÎÊ8Z—g¦RF<5£ÀlÜ¢çDg–ªPÀ¹WÇ‚7‰øz_7Åß»¥¼¦ªè%]AÎ\ªÛë§Æ˜ô²2înÕ›šÛdúê.*Â›×µÞèÒqUFµÜ\[\ƒª¹ÚUäi¨¡Ã·m-ßåKœ“ëf¢K1Sí½œ}PAEYÔì Æä–=!?3Wø ¢ˆÂŸ5í†r·]·J¥Í÷JÖŒl	KáïìàÇICÁ&ÿÎT86ÝÒÍTÀ'vúÏ»1²rýQOÄø@Õˆ¡êI”›sö4ðuÂlHå5:}Â—Ù]RYÞ3>Q’%ß½Ê·gS~dé§y>»¦±ßM~ñiÔÜš¦ûS+€\¨s8|aäj»üG–Óÿ{s—ÞšÉNmDN¢Ö——6ÑË
-©lÌ®0èþŽëø±Ã%~¹ºmV†Î€æ	‰ªRª€ãäÐq^ü­RÍx†î»¡øNºmm*söcgÀ´Ô“Î™7d¸¹ð!hµ1+ËIçöŸ? gp›«UÌ$4xØ*èX lî ãJ(t»¯P§ÖIx3…Æè¥úšÇiÜ½¡3®x%áXZQµÃØ*Þ ‰{N²vÁŸ6s’~†A±ËÍv•: ´o}¼n¾— X¹æ¥Ù«²%vÚ²I"s“þ •ªÁÅ´×jóäå’NGF¸1­ŠhŽ–‰	i{Þ¨ûÑ}ð{sWT
-WÍ"„HÉ=	êJfÊh`*bÈ¸Å‰q†ÇËâæ¢¦5î‡‹ËÅ—üj?îñÈ°dBÿùéà&­ÎŸúRá˜\¤eìÀ$P^Ö1òGØÌ&uo*ðßØúžOcZ¦=é8S‡D‚S´mÓ>_VêSl-Îªå—nH!Pbœ%wn´§(Û>+¡GùÒ.’ªÃ¤'= ²šu¯ÃÐ¡æ^&ô…¦öT,DL´l+Û–‘ô)"ë”Œœ‰a‚\ß„Ña%ã±‰ŸKAôt6œF•ŽèE~XØåq~haíÇ÷|î²kƒnëaƒ¦´-Ü"£Ihü{üGn)›µÇ@ù‡îüO¤»¬»9Ÿh,;pšžm*âé-of®u»¦³Ý*]®ÅW´/"ëÑf¼ãé¿Ç)+Ã¨x^+ôéì¥ÿ0‡…f¼	—$"*PÂí8'	æ°¼Õ+U·ªÒ^-“}F6s¹{–dÚ\ûÌ¸¿=†b71ÇwCqô‘!9íÖ ã¡üdz¢v7kQ¤7RÖR¤Á™?á^è}©Æ\¤U¯½™ÐIèáñ»·˜
-¶aç¨Nïi€¤3fzõR*¡¼ˆ'´Uôá›ÞhþÊwJÚ%rDyÀÔC+Ô½{÷<¼¸2UÀO5å¤®‚ßú}B˜TŒæ.rM»ËJFý_+c(‘P5Ž…ªFÜ‰“I}Œbõg4æ„mÄ÷ñ¬tLÒ¹F
-3Ž ¨»Õ{>‡qè.½Ó,z´2.hpÕë¯×<.vî3ÎÚ¦@XF¦Y*"ì<À llö"šfzÒÈ[Šázþxú1O$\8ç¦l2IB_Q¸q™êJ÷°ß³4¡N÷ÌRv~e8SzÒ)4`6¸í8fWïîÖâ¬>„;ö,Fƒ!ôÁB	:uDwT?
-Š:ó‡K*sðÇïÐø±í,`ÿÃÏ“L’Ï‘‹P^= 6:²bl`1žb!'ªIÔ,óSTµöøËšØX½"qÙ‘xŒt ªŽävÃË"r6u<*Ý<ˆy†Ñ1>;Ìþ+h£¼xËŒ€Õ˜Î†UÚÑ<Êj`zÌ·vêjaóO}ñN‹è”€b5ÆÆÜr´´ÇÚŠý®Ì›à›ÄIn]üºÓ¥ÙÚZTv¶…µZèDÚl¼Ò»ö yµfgð©Þ—¶@@ö\Ú$o*É”Æ)íH {™æ 8Æ«Îº>²¢·±pÐ?ŒÙbbk”µ
-‰ô%¦ÑÀÝD°ýˆ‰°'ŸzFÜÏ¦ÔiT_}²ef<ŸFæ´à*& 6ó¿*ÔH3°Æ•S¼Ü>8‘aâ"_:q8N´8Éã Ü/ã*=#ëfØè‡›*£Öþ3ÈÞíåç¯”ÙQ&@›ËL5X•0 h¿Œ¦+½Cê7ÿˆ½Ø*ŽM’`iþî3¡ ¨X­læ<¦fÅðìÇ-=fÚy"9ÈC¿N}ÓáEø®JŠæ¦—“à™`·µ|7¥l´¥—RŠÞsKfcB½ˆ&]RXa;Cƒ0È£.Ï`vYŒ½ƒÑÎÈ¦çž‡Ig;¥[Jý±ù©–Òi…ÒHabBà{y^¬“;Ô²U« ÞHúyw¡CÊÉ!6Fd/ÓúMÜ¬‹d°ÔˆÚ“ÄœhÌ+³~Üú3Ø#·ª78Ï)K{CFº@ù/:«›´hÿò¬†Õsh;h	=—xäk+ºîOEY™Â§càëÔbÂnòø¸¦žÊ”9Þßãñ"cñ`©â½BRwN<)ù“¬Ë¸í} uÒ¥ðÜ‹4GBÑ~®D®‹'ªÄb÷æ
-DœU{R£†œ„¨¦|Þ×âÒL¯ÜQ8<D²QÖp*ü:¡Õe;ÏlþÙ`¸Á§*k<’
-»tXÄ››ÃAïÂV½çD7¬V3¤¾%©u&1r,‡øtYBà¯9ˆ¥à»{?Á”¾À(0Á?=•ÃöÒpF£53bóäÜØ“Uð;³ø¬ÌžœTN(®«6,ù©‰ý½:­ùû`PØ¹+0ÃÆ“‰ÛÿAßˆØÞ2D½46éö€å°A@«¡–<î¸Ðn„7»'«Ïð°t~_hSG¼E$"°–àj—f½6Ï½çyUeØK{Xžhcå5õýð!\0¨!,k[±ùÓwë=s¶®ßåô;èÅ+à»»Äô½)·1ò]d@kÄD?ú¯KSƒæßÌúR‡†ŸˆOÆ9x}žpy:@ð :û4AŸH9 #b­9ƒN9JÈß-g
-Ž–3ŸóxÓÝô¦¯2ýôÛš¡ÉXË*%/+:Â©–Äõ­£‘‘ZzêŸ}ö»i£4Éù0Jˆyexy+%b7çIwµÂ«$&>2æ
-ÛÞO†¢qú­e~¹L¤“âR‚öý¹íƒSÑÐçØGA[ò„™o‡NX‹E>!§Œ"ýÙî”	J¥Ù~YåÔú‘>,Ö2—mƒù$»ê1	¾cÁ™,H¤o	5ö»É­À„]UtgCT Jº0-ƒÜQ¿lrË_†¿ÕP<«v‡lƒÔ=‹ŠB673O]¯èªAŠ½]9hÁ <ÉOÊÚ¡NT€ãM~‘%»
-ã>‚‡oZ­ÇN0Ö%`×ó'$!{iï˜1œ¥ J<ugí½?–ltGóB4~üu™¤Zèpi¤Ó€›¯á=‚r¯Ê‹§ÁK)
-e 4zIÉ×´Ù¶¨îˆÀ¼þ˜-wž¥ÑÎûá¨;Þ‚>8ÞÀãµÃ'ëb«_“†ÄßÇ¶]	æK ¯¹.02ö;Ç.ŸÛÏ$ƒ*`òv†ErDÊ¦¢A€ä£{C¢Eu+æ´4-llD-xÉ"‹Œeša´¥ÙÌ‘#ç½_P%åE‡‚{Û9y£àÆ8n}I<Šb ÌòÅòð:~†Í¡â(.?¶ö}¿€HF3ˆ“¹ë{¨ð7…@_¾6±T÷À¿V›ü!¯8õ±ƒðb7w[ðüHtñ
-éÈd
-†JYÁËß³RU%•·Ñ"š/Žµm·K¿ò^ÑÛu¸oGªônGÆ­Ãõ…ì3m>zFº:Uy½¯gNûù+I‚Ácÿç-žÒ§6wý¤¡í¢mÖòÖ
+	//		p->setViewActive(v_null, FALSE);
+	//	}	
+	//	
+	//}
+
+	m_sign_unactive.emit();
+//	m_b_active = FALSE;
+}
+
+// DoMessageæ—¶ç›´æŽ¥è°ƒç”¨,ä¸ç»ä¿¡å·æ§½ä¼ é€’,ä¾›æŽ§ä»¶å†…éƒ¨ä½¿ç”¨
+void KView::onDownDirect(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+
+}
+
+void KView::onMoveDirect(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+	if (m_b_mouse_picked || m_b_rmouse_picked)
+	{//ç‚¹å‡»æŒ‰ä¸‹çŠ¶æ€ï¼Œå¯ä¸å¤„ç†èšç„¦æ¶ˆæ¯
+		if (m_b_mouse_in_view && !isPointInView(iScreenX, iScreenY))   //é¼ æ ‡ç¦»å¼€æŒ‰é’® 
+		{
+			m_b_mouse_in_view = false;   //æ¸…é™¤è¿›å…¥æ ‡å¿—
+			//			m_mouse_leave_signal.emit();
+		}
+		return;
+	}
+
+	if(!m_b_mouse_in_view && isPointInView(iScreenX, iScreenY))    //é¼ æ ‡è¿›å…¥æŒ‰é’®
+	{
+		m_b_mouse_in_view = true;    //è®¾ç½®è¿›å…¥æ ‡å¿—
+		setViewActive();
+		m_mouse_enter_signal.emit();
+	//	MyTrace(_T("%s enter \n"), m_name.c_str() );
+		if (m_shield_msg)
+		{
+			pMsg->setIdle(KMSG_RETURN_DILE);
+		}
+
+		//tipå¤„ç†
+		if (m_b_show_tip)
+		{
+			if (!m_b_mouse_picked && !m_b_rmouse_picked)
+			{
+				showTip(m_tip_delay_time, m_tip_hide_time);
+			}
+		}
+
+	}
+	else if (m_b_mouse_in_view )   
+	{
+		if(isPointInView(iScreenX, iScreenY) )
+		{//åƒæŽ‰æ¶ˆæ¯
+			if (m_shield_msg)
+			{
+				pMsg->setIdle(KMSG_RETURN_DILE);
+			}
+		}
+		else
+		{//é¼ æ ‡ç¦»å¼€æŒ‰é’® 
+			m_b_mouse_in_view = false;   //æ¸…é™¤è¿›å…¥æ ‡å¿—
+			unSetViewActive();
+			m_mouse_leave_signal.emit();
+	//		MyTrace(_T("%s leave \n"), m_name.c_str());
+			if (m_b_show_tip)
+			{
+				hideTip();
+			}
+		}
+
+	}
+}
+
+void KView::onUpDirect(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+
+}
+
+void KView::onWheelDirect(KMessageMouseWheel* pMsg)
+{
+
+}
+
+void KView::enableGesture(kn_bool b)
+{
+	m_b_enable_gesture = b;
+}
+
+void KView::recogGesture(KMessageTouch* pMsg)
+{
+
+	if(!m_b_enable_gesture)
+	{
+		return;
+	}
+
+	char szName [][32] = {"KMSG_TOUCH_UP",
+		"KMSG_TOUCH_MOVE",
+		"KMSG_TOUCH_DOWN"};
+
+//	MyTraceA("onTouchUpDirect ..%d, type(%d), %s", pMsg->m_iPointCount, pMsg->m_msg_type, szName[pMsg->m_msg_type - KMSG_TOUCH_UP]);
+
+	if(pMsg->m_iPointCount == 1)
+	{
+	//	MyTraceA("onTouchUpDirect ..%d, type(%d), %s, touchid(%d), (%d,%d)", pMsg->m_iPointCount, pMsg->m_msg_type, szName[pMsg->m_msg_type - KMSG_TOUCH_UP],
+	//		pMsg->m_ids[0], pMsg->m_xs[0], pMsg->m_ys[0]);
+
+	}
+	else 
+	{
+//		MyTraceA("onTouchUpDirect ..%d, type(%d), %s, [touchid(%d), (%d,%d)], [touchid(%d), (%d,%d)]", pMsg->m_iPointCount, pMsg->m_msg_type, szName[pMsg->m_msg_type - KMSG_TOUCH_UP],
+//			pMsg->m_ids[0], pMsg->m_xs[0], pMsg->m_ys[0],
+//			pMsg->m_ids[1], pMsg->m_xs[1], pMsg->m_ys[1]		);
+	}
+
+
+	m_p_gesture_detector->addTouchMessge(pMsg);
+	KGesture gesture = m_p_gesture_detector->recogGesture();
+	
+	if(gesture.m_type != GESTURE_UNKNOWN)
+	{
+		m_sign_gesture.emit(&gesture);
+	}
+}
+
+void KView::onTouchDownDirect(kn_int iScreenX, kn_int iScreenY, KMessageTouch* pMsg)
+{
+	recogGesture(pMsg);
+}
+
+void KView::onTouchMoveDirect(kn_int iScreenX, kn_int iScreenY, KMessageTouch* pMsg)
+{
+
+	recogGesture(pMsg);
+}
+
+void KView::onTouchUpDirect(kn_int iScreenX, kn_int iScreenY, KMessageTouch* pMsg)
+{
+	
+	recogGesture(pMsg);
+}
+
+
+void KView::enableMessage(kn_bool b)
+{
+	m_b_do_msg = b;
+}
+
+
+//void KView::SetOpacity(kn_byte value)
+//{
+//	if(m_i_opacity != value)
+//	{
+//		InvalidateForParent(GetBoundRect());
+//		m_i_opacity = value;
+//	}
+//}
+//
+//kn_int KView::GetOpacity()
+//{
+//	return m_i_opacity;
+//}
+
+void KView::GetPosition(kn_int& iX, kn_int& iY)
+{
+	RERect rct = GetBoundRect();
+	iX = rct.left();
+	iY = rct.top();
+}
+
+REPoint KView::GetPosition()
+{
+	RERect rct = GetBoundRect();
+	return REPoint::Make(rct.left(), rct.top());
+}
+
+void KView::GetScreenXY(kn_int &x, kn_int &y)
+{
+	kn_int xw, yw;
+
+// 	x = m_rect.left();
+// 	y = m_rect.top();
+
+
+	RERect rectBound = GetBoundRect();
+
+	x = rectBound.left();
+	y = rectBound.top();
+
+	if (!m_p_parent.expired()) 
+	{
+		m_p_parent.lock()->GetScreenXY(xw,yw);
+		x += xw;
+		y += yw;
+	}
+}
+
+void KView::SetScreenPosition(kn_int iX, kn_int iY)
+{
+//	ASSERT(m_p_parent);
+	int iScreenLeft,iScreenTop;
+
+    RERect rect = GetBoundRect();
+    InvalidateForParent(rect);
+
+	GetScreenXY(iScreenLeft, iScreenTop);
+
+	int iOffsetX = iX - iScreenLeft;
+	int iOffsetY = iY - iScreenTop;
+
+	m_rect.offset(iOffsetX, iOffsetY);
+    rect = GetBoundRect();
+    InvalidateForParent(rect);
+}
+
+void KView::SetPosition(kn_int iX, kn_int iY)
+{
+    RERect rect = GetBoundRect();
+    InvalidateForParent(rect);
+//	int iOffsetX = -iX + m_rect.left();
+//	int iOffsetY = -iY + m_rect.top();
+//	m_rect.offset(iOffsetX, iOffsetY);
+
+	writeLock lock(m_lst_drawable_mutex);
+
+	if (m_transform_flag & VIEW_TRANSFORM_BOUND)
+	{//å˜å½¢çŸ©é˜µä¹Ÿè¦ç§»åŠ¨ï¼Œè¦ä¸å˜å½¢æƒ…å†µä¸‹ç§»ä¸åŠ¨
+		int x = m_rect_bound.left() - m_rect.left() +iX;
+		int y = m_rect_bound.top() - m_rect.top() +iY;
+		m_rect_bound.offsetTo(x,y);
+	}
+
+	m_rect.offsetTo(iX, iY);
+    rect = GetBoundRect();
+    InvalidateForParent(rect);
+}
+
+void KView::SetPositionX(kn_int iX)
+{
+	SetPosition(iX, m_rect.top() );
+}
+
+void KView::SetPositionY(kn_int iY)
+{
+	SetPosition(m_rect.left(), iY);
+}
+
+
+kn_bool KView::HasInvalidRect()
+{
+	if (m_lst_rect_invalid.empty() )
+	{
+		return FALSE;
+	}
+	return TRUE;
+}
+
+LSTRECT KView::GetInvalidRect()
+{
+	return m_lst_rect_invalid;
+}
+
+void KView::SetParent(KViewGroup_WEAK_PTR p)
+{
+	m_p_parent = p; 
+}
+
+//æ³¨æ„è¿™é‡Œæ˜¯è¿”å›žå¼ºå¼•ç”¨
+KViewGroup_PTR KView::GetParent()
+{
+	return m_p_parent.lock();
+}
+
+void KView::SetScreen(KScreen * p)
+{
+	m_p_screen = p; 
+}
+
+KScreen* KView::GetScreen()
+{
+	if (m_p_screen)
+	{
+		return m_p_screen;
+	}
+
+	if (!m_p_parent.expired())
+	{
+		return m_p_parent.lock()->GetScreen();
+	}
+
+	//ä¸åº”è¯¥è¿è¡Œåˆ°è¿™é‡Œ
+//	ASSERT(FALSE);
+	return NULL;
+}
+
+
+void KView::SetRect(const RERect& rect)
+{
+	KShowObject::SetRect(rect);
+	m_transform_flag = 0;
+	InvalidateForParent(m_rect);
+}
+
+void KView::UpdateUI ()
+{
+	KScreen* p = GetScreen();
+	if (p)
+	{
+		p->SetRenderFlag(TRUE);
+	}
+	
+}
+
+// è®¾ç½®å±€éƒ¨åˆ·æ–°åŒºåŸŸ
+void KView::InvalidateRect(RERect rect)
+{
+	//æš‚æ—¶å…³é—­å±€éƒ¨åˆ·æ–° zhic  çŽ°é˜¶æ®µæ„ä¹‰ä¸å¤§
+	return;
+
+	kn_int xw, yw;
+	GetScreenXY(xw, yw);
+	rect.offset(xw - rect.left(),yw - rect.top());
+
+	writeLock lock(m_rectInvalid_mutex);
+	m_lst_rect_invalid.push_back(rect);
+}
+
+//åˆ·æ–°æŽ§ä»¶è‡ªèº«,å¯æŽ§åˆ¶æ˜¯å¦ç«‹å³è¦æ±‚é‡ç»˜ï¼Œ
+void KView::InvalidateView(kn_bool bRefresh)
+{
+	RERect r = RERect::MakeWH(m_rect.width(), m_rect.height() );
+	InvalidateRect(r);
+
+	if (bRefresh)
+	{//ç”³è¯·ç«‹å³é‡ç»˜
+		UpdateUI();
+	}
+}
+
+void KView::InvalidateForParent(RERect& r)
+{
+	RERect rect = r;
+	rect.offset(m_rect.left(),m_rect.top());
+	InvalidateRect(rect);
+}
+
+
+void KView::clearInvalidRect()
+{
+#ifndef _WIN32_WCE
+	// wince äº§ç”Ÿæ–­è¨€ï¼ŒåŽŸå› å¾…æŸ¥
+	writeLock  lock(m_rectInvalid_mutex);
+#endif
+	m_lst_rect_invalid.clear();
+}
+
+//å…ˆä¸å®žçŽ°ç›¸å¯¹å˜æ¢
+//void KView::Rotate( REScalar degree, REScalar px, REScalar py )
+//{
+//	m_b_transformed = true;
+//	m_matrix.postRotate(degree, px, py);
+//}
+//
+//void KView::Skew( REScalar x, REScalar y, REScalar px, REScalar py )
+//{
+//	m_b_transformed = true;
+//	m_matrix.postSkew(x, y, px, py);
+//}
+//
+//void KView::Translate( REScalar dx, REScalar dy )
+//{
+//	m_b_transformed = true;
+//	m_matrix.postTranslate(dx, dy);
+//}
+//
+//void KView::Scale( REScalar sx, REScalar sy, REScalar px /*= 0*/, REScalar py /*= 0*/ )
+//{
+//	m_b_transformed = true;
+//	m_matrix.postScale(sx, sy, px, py);
+//}
+
+RERect KView::GetBoundRect()
+{
+	if (m_transform_flag != 0)
+	{
+		RERect ret = m_rect;
+		REMatrix m;
+		getMatrix(0,0,m);
+		m.mapRect(&ret);
+		return ret;
+	}
+	else
+	{
+		return m_rect;
+	}
+}
+
+void  KView::getMatrix( REScalar x, REScalar y, REMatrix& mat)
+{
+	mat.setIdentity();
+	if (m_transform_flag == 0)
+	{
+		return;
+	}
+	
+	if (m_transform_flag & VIEW_TRANSFORM_BOUND)
+	{
+		RERect rect1 = m_rect;
+		RERect rect2 = m_rect_bound;
+		rect1.offset( x, y );
+		rect2.offset( x, y);
+		mat.setRectToRect(rect1, rect2, REMatrix::kFill_ScaleToFit);
+	}
+
+	if (m_transform_flag & VIEW_TRANSFORM_TRANSLATE)
+	{
+		mat.setTranslate(m_translate_point.x(), m_translate_point.y() );
+	}
+
+	if (m_transform_flag & VIEW_TRANSFORM_SCALE)
+	{
+		mat.setScale(m_scale_size.x(), m_scale_size.y(), m_scale_xy.x() + m_rect.left()+ x, m_scale_xy.y() + m_rect.top()+ y);
+	}
+
+	if (m_transform_flag & VIEW_TRANSFORM_ROTATE)
+	{
+		mat.setRotate(m_rotate_angle, m_rotate_point.x() + m_rect.left()+ x, m_rotate_point.y() + m_rect.top()+ y);
+	}
+
+	if (m_transform_flag & VIEW_TRANSFORM_SKEW)
+	{
+		mat.setSkew(m_skew_para.fLeft, m_skew_para.fRight, m_skew_para.fTop+ x, m_skew_para.fBottom +y);
+	}
+}
+
+void KView::SetBoundRect(const RERect& rect)
+{
+	writeLock lock(m_lst_drawable_mutex);
+
+	if(rect == m_rect)
+	{//æ¸…é™¤æ ‡å¿—ä½
+		m_transform_flag &=(VIEW_TRANSFORM_ALL - VIEW_TRANSFORM_BOUND);
+	}
+	else
+	{
+		m_rect_bound = rect;
+		m_transform_flag |=VIEW_TRANSFORM_BOUND;
+	}
+}
+
+void KView::SetTranslate( REScalar dx, REScalar dy )
+{
+	if (dx == 0 && dy == 0)
+	{
+		m_transform_flag &=(VIEW_TRANSFORM_ALL - VIEW_TRANSFORM_TRANSLATE);
+	}
+	else
+	{
+		m_transform_flag |=VIEW_TRANSFORM_TRANSLATE;
+		m_translate_point.set(dx, dy);
+	}
+}
+
+void KView::SetScale( REScalar sx, REScalar sy, REScalar px /*= 0*/, REScalar py /*= 0*/ )
+{
+	if (sx == 1 && sy == 1)
+	{
+		m_transform_flag &=(VIEW_TRANSFORM_ALL - VIEW_TRANSFORM_SCALE);
+		m_scale_size.fX = sx;
+		m_scale_size.fY = sy;
+		m_scale_xy.fX = px;
+		m_scale_xy.fY = py;
+	}
+	else
+	{
+		m_transform_flag |=VIEW_TRANSFORM_SCALE;
+		m_scale_size.fX = sx;
+		m_scale_size.fY = sy;
+		m_scale_xy.fX = px;
+		m_scale_xy.fY = py;
+	}
+
+}
+
+void KView::SetScaleX( REScalar sx )
+{
+	SetScale(sx,m_scale_size.fY , m_scale_xy.fX, m_scale_xy.fY );
+}
+
+void KView::SetScaleY( REScalar sy )
+{
+	SetScale(m_scale_size.fX, sy , m_scale_xy.fX, m_scale_xy.fY );
+}
+
+void KView::SetScalePoint( REScalar px , REScalar py)
+{
+	m_scale_xy.fX = px;
+	m_scale_xy.fY = py;
+}
+
+void KView::SetRotate( kn_float degrees, REScalar px /*= 0*/, REScalar py /*= 0*/ )
+{
+	if (degrees == 0)
+	{
+		m_transform_flag &=(VIEW_TRANSFORM_ALL - VIEW_TRANSFORM_ROTATE);
+	}
+	else
+	{
+		m_rotate_angle = degrees;
+		m_rotate_point.set(px,py);
+		m_transform_flag |=VIEW_TRANSFORM_ROTATE;
+	}
+}
+
+void KView::SetRotatePoint( REScalar px , REScalar py)
+{
+	SetRotate(m_rotate_angle,  px, py);
+}
+
+void KView::SetRotateAngle( kn_float degrees)
+{
+	SetRotate(degrees, m_rotate_point.x(), m_rotate_point.y());
+
+}
+
+
+void KView::SetSkew( kn_float sx, kn_float sy, REScalar px /*= 0*/, REScalar py /*= 0*/ )
+{
+	if (sx == 1.0 && sy == 1.0)
+	{
+		m_transform_flag &= (VIEW_TRANSFORM_ALL - VIEW_TRANSFORM_SKEW);
+	}
+	else
+	{
+		m_transform_flag &= VIEW_TRANSFORM_SKEW;
+		m_skew_para.fLeft = sx;
+		m_skew_para.fRight = sy;
+		m_skew_para.fTop = px;
+		m_skew_para.fBottom = px;
+	}
+
+	
+}
+
+
+REScalar KView::getRotateAngle()
+{
+	return m_rotate_angle;
+}
+
+void KView::getRotatePoint(REScalar& x, REScalar& y)
+{
+	x = m_rotate_point.x();
+	y = m_rotate_point.y();
+
+}
+
+
+void KView::OnMove(kn_int x, kn_int y, KMessageMouse* pMsg)
+{
+	// è®¾ç½®åŒºåŸŸ
+
+}
+void KView::OnDown(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+
+}
+
+void KView::OnUp(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+
+}
+void KView::OnDClick( kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg )
+{
+
+}
+
+void KView::OnRDown(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+
+}
+
+void KView::OnRUp(kn_int iScreenX, kn_int iScreenY, KMessageMouse* pMsg)
+{
+
+}
+void KView::OnRDClick( kn_int iScreenX, kn_int iScreenY , KMessageMouse* pMsg)
+{
+
+}
+
+void KView::OnWheel( KMessageMouseWheel* pMsg )
+{
+
+}
+
+void KView::OnTouchMove(kn_int x, kn_int y, KMessageTouch* pMsg)
+{
+
+
+
+}
+void KView::OnTouchDown(kn_int iScreenX, kn_int iScreenY, KMessageTouch* pMsg)
+{
+
+}
+
+void KView::OnTouchUp(kn_int iScreenX, kn_int iScreenY, KMessageTouch* pMsg)
+{
+
+}
+
+void KView::OnGesture(KGesture* pGesture)
+{
+
+}
+
+ 
+
+kn_int KView::doModal()
+{
+	// note: æœªè€ƒè™‘å¤šå±‚doModalçš„æƒ…å†µ
+	setViewFocus();
+	m_b_modal_exit = false;
+	GetScreen()->addModalView( shared_from_this() );
+	//	writeLock lock(m_lst_drawable_mutex);
+
+	//doModalçš„æ—¶å€™æ·»åŠ å˜æš—çš„å…¨å±åŠé€æ˜ŽèƒŒæ™¯
+	kn_int i_x = 0,i_y = 0;
+	i_x -= m_rect.left();
+	i_y -= m_rect.top();
+
+	//èŽ·å–å½“å‰Viewç›¸å¯¹äºŽé¡¶çº§çš„åæ ‡
+	if (!m_p_parent.expired())
+	{
+		i_x -= m_p_parent.lock()->GetRect().left();
+		i_y -= m_p_parent.lock()->GetRect().top();
+	}
+	//æ·»åŠ èƒŒæ™¯
+	KDrawable_PTR p_drawable (new KColorDrawable(0x70000000));
+	p_drawable->setRect(i_x,i_y,GetScreen()->GetWidth(),GetScreen()->GetHeight());
+	m_lst_drawable.insert(m_lst_drawable.begin(),p_drawable);
+	InvalidateView();
+#ifndef ANDROID_NDK
+	int ret = runModalLoop();
+
+	if (!m_p_parent.expired())
+	{
+		m_p_parent.lock()->AddViewToDel( shared_from_this() );
+	}
+
+	if (ret != -1) //è¿”å›ž-1æ˜¯æ”¶åˆ°ç³»ç»Ÿé€€å‡ºæ¶ˆæ¯ï¼Œå¯èƒ½viewå·²è¢«é‡Šæ”¾
+	{
+		GetScreen()->delModalView(shared_from_this());
+//		GetScreen()->SetRenderFlag(FALSE);
+		InvalidateView();
+		return m_i_modal_result;
+	}
+
+	return 0;
+#else
+	return 1;
+#endif
+}
+
+void KView::endModal(kn_int iResult,  kn_bool b_del_view)
+{
+	m_i_modal_result = iResult;
+	m_b_modal_exit = true;
+	if (b_del_view)
+	{
+		if (!m_p_parent.expired())
+		{
+			m_p_parent.lock()->AddViewToDel(shared_from_this());
+		}
+	}
+#ifdef ANDROID_NDK
+	GetScreen()->delModalView(shared_from_this());
+#endif
+}
+
+
+RERect  KView::GetScreenRect(RERect rect)
+{
+	//å°†çŸ©å½¢
+	int screenx, screeny;
+	GetScreenXY(screenx, screeny);
+
+	rect.offset(screenx - m_rect.left(), screeny - m_rect.top());
+	return rect;
+}
+
+
+
+//æŠŠviewå†…éƒ¨çš„å†…å®¹æ¸²æŸ“åˆ°ä¸€ä¸ªimageä¸Š,æž„é€ æˆTextViewè¿”å›ž
+IRESurface* KView::renderToSurface()
+{
+	IRESurface*  p_surface = RESurfaceFactory::CreateRESurface(m_rect.width(), m_rect.height(), REBitmap::kARGB_8888_Config );
+	return NULL;
+}
+
+KTextView* KView::renderToView()
+{
+	return NULL;
+}
+///////////ç®€åŒ–çš„å±žæ€§å‚æ•°è®¾ç½®
+kn_bool  KView::isChange(kn_int para_id, kn_double v)
+{
+	if (para_id == PropertyPARA_ID_POS_X)
+	{
+		kn_int i_v = v;
+		return  (m_rect.left() != i_v) ;
+	}
+	if (para_id == PropertyPARA_ID_POS_Y)
+	{
+		kn_int i_v = v;
+		return  (GetBoundRect().top() != i_v) ;
+	}
+	if (para_id == PropertyPARA_ID_Opacity)
+	{
+		kn_int i_v = v;
+		return  (getOpacity() != (int)i_v) ;
+	}
+
+	if (para_id == PropertyPARA_ID_RotateAngle)
+	{
+		kn_int i_v = v;
+		return  (m_rotate_angle != i_v) ;
+	}
+
+	if (para_id == PropertyPARA_ID_ScaleX)
+	{
+		return  (m_scale_size.fX != v) ;
+	}
+	if (para_id == PropertyPARA_ID_ScaleY)
+	{
+		return  (m_scale_size.fY != v) ;
+	}
+	return FALSE;
+}
+
+void  KView::doChange(kn_int para_id, kn_double v)
+{
+	if (para_id == PropertyPARA_ID_POS_X)
+	{
+		SetPositionX( v );
+	}
+	if (para_id == PropertyPARA_ID_POS_Y)
+	{
+		SetPositionY( v );
+	}
+	if (para_id == PropertyPARA_ID_Opacity)
+	{
+		setOpacity(v);
+	}
+	if (para_id == PropertyPARA_ID_RotateAngle)
+	{
+		SetRotateAngle(v);
+	}
+	if (para_id == PropertyPARA_ID_ScaleX)
+	{
+		SetScaleX(v);
+	}
+	if (para_id == PropertyPARA_ID_ScaleY)
+	{
+		SetScaleY(v);
+	}
+}
+
+kn_double  KView::getParaValue(kn_int para_id)
+{
+	if (para_id == PropertyPARA_ID_POS_X)
+	{
+		return m_rect.left();
+	}
+	if (para_id == PropertyPARA_ID_POS_Y)
+	{
+		return  m_rect.y();
+	}
+	if (para_id == PropertyPARA_ID_Opacity)
+	{
+		return  getOpacity();
+	}
+
+	if (para_id == PropertyPARA_ID_RotateAngle)
+	{
+		return  m_rotate_angle;
+	}
+
+	if (para_id == PropertyPARA_ID_ScaleX)
+	{
+		return  m_scale_size.fX;
+	}
+	if (para_id == PropertyPARA_ID_ScaleY)
+	{
+		return  m_scale_size.fY;
+	}
+	return 0;
+}
+
+////å¢žåŠ å¼•ç”¨è®¡æ•°
+//void  KView::addRef()
+//{
+//	m_ref++;
+//}
+//
+////é™ä½Žå¼•ç”¨è®¡æ•°
+//void  KView::decRef()
+//{
+//	m_ref--;
+//}
+//
+////æ˜¯å¦å­˜åœ¨å¼•ç”¨è®¡æ•°
+//kn_bool  KView::isRef()
+//{
+//	return m_ref > 0;
+//	 
+//}
+
+void KView::viewSizeChange()
+{
+	if (m_p_parent.expired())
+	{
+		return;
+	}
+
+    RERect rectParent = m_p_parent.lock()->GetRect();
+    RERect rectOrigin = m_p_parent.lock()->getRectOrigin();
+
+    sizeChange(rectParent, rectOrigin);
+
+	for(VEC_DRAWABLE::iterator ite = m_lst_drawable.begin();ite != m_lst_drawable.end(); ++ite)
+	{
+		if ( (*ite)->getAutoSize() )
+		{
+			(*ite)->sizeChange(m_rect, m_rect_origin);
+		}
+		
+	}
+}
+
+void  KView::SaveOriginalViewRect()
+{
+	KShowObject::SaveOriginalViewRect();
+
+	for(VEC_DRAWABLE::iterator ite = m_lst_drawable.begin();ite != m_lst_drawable.end(); ++ite)
+	{
+		(*ite)->SaveOriginalViewRect();
+	}
+}
+
+void	KView::SetShieldMsg(kn_bool b)
+{
+	m_shield_msg = b;
+}
+
+void KView::setTip(const kn_string& str, kn_int delay, kn_int hide)
+{
+	m_tip_txt = str;
+	m_tip_delay_time = delay;
+	m_tip_hide_time = hide;
+	enableTip(TRUE);
+}
+
+void KView::enableTip(kn_bool b)
+{
+	m_b_show_tip = b;
+}
+
+void KView::showTip(int delay_time, int hide_time)
+{
+
+	if (delay_time > 0)
+	{
+		m_delay_timer = KTimer_PTR(new KTimer(delay_time, 1));
+		m_delay_timer->setView(shared_from_this());
+		m_delay_timer->m_timeout_signal.connect(this, &KView::showTipCallback);
+		m_delay_timer->start();
+	}
+	else
+	{//ç›´æŽ¥æ˜¾ç¤º
+		showTipCallback(1);
+	}
+
+	if (hide_time>0)
+	{
+		m_hide_timer = KTimer_PTR(new KTimer(hide_time+delay_time, 1));
+		m_hide_timer->setView(shared_from_this());
+		m_hide_timer->m_timeout_signal.connect(this, &KView::hideTipCallback);
+		m_hide_timer->start();
+	}
+
+}
+
+void KView::showTipCallback(int n)
+{
+	KScreen* screen = GetScreen();
+	if (!screen)
+	{
+		return;
+	}
+
+	KTipBase_PTR tip = KTipBase_PTR(new KTipBase);
+	tip->init(screen, GetScreenRect(m_rect), m_tip_txt);
+	screen->showTip( tip );
+	m_tip_id = tip->getTipID();
+	InvalidateView();
+}
+
+void KView::hideTipCallback(int n)
+{
+	hideTip();
+}
+
+void KView::hideTip()
+{
+	KScreen* screen = GetScreen();
+	if (!screen)
+	{
+		return;
+	}
+	if (m_delay_timer)
+	{
+		m_delay_timer->stop();
+		m_delay_timer.reset();
+	}
+
+	if (m_hide_timer)
+	{
+		m_hide_timer->stop();
+		m_hide_timer.reset();
+	}
+	screen->hideTip(m_tip_id );
+
+	InvalidateView();
+}
+
+void  KView::createTextDrawableHelper(KTextDrawable_PTR* txt,kn_string str, int fontsize, kn_int x,kn_int y, kn_int w, kn_int h, REColor clr, REPaint::Align align )
+{
+	*txt = KTextDrawable_PTR(new KTextDrawable(str.c_str(), clr, fontsize, align));
+	(*txt)->setFont( GetFontManagerSingleton()->GetFontFromName("Microsoft YaHei") );
+	(*txt)->setRect(x,y, w, h);
+	addDrawable( *txt );
+}
+
+void KView::createColorDrawableHelper(KColorDrawable_PTR* color_da, kn_int x,kn_int y, kn_int w, kn_int h, REColor r )
+{
+	*color_da = KColorDrawable_PTR(new KColorDrawable(r) );
+	(*color_da)->SetRect(RERect::MakeXYWH(0, 0, m_rect.width(), m_rect.height()) );
+	addDrawable(*color_da);
+}
+
+RERect KView::getDrawRectBaseOnChild()
+{
+	if (!isShow())
+	{
+		return RERect::MakeXYWH(0, 0, 0, 0);
+	}
+
+	// è®¿é—®m_lst_drawableéœ€è¦åŠ é” add by junz 2015-12-26
+	readLock lock(m_lst_drawable_mutex);
+	RERect view_rect = RERect::MakeXYWH(0, 0, m_rect.width(), m_rect.height());
+	for (kn_int i = 0; i < m_lst_drawable.size(); ++i)
+	{
+		view_rect.join(m_lst_drawable[i]->GetRect());
+	}
+	RERect draw_rect = RERect::MakeXYWH(view_rect.left() + m_rect.left(), view_rect.top() + m_rect.top(), view_rect.width(), view_rect.height());
+	return draw_rect;
+}
+
+void KView::requestSetPosition(kn_int iX, kn_int iY)
+{
+	CPropertyPos* pPos = new CPropertyPos(shared_from_this(), iX, iY);
+	GetScreen()->addProperty(pPos, FALSE);
+}

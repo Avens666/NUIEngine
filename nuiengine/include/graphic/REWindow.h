@@ -1,149 +1,292 @@
 ﻿//  **************************************
-//  File:        SkiaRESurface.h
+//  File:        REWindow.h
 //  Copyright:   Copyright(C) 2013-2017 Wuhan KOTEI Informatics Co., Ltd. All rights reserved.
 //  Website:     http://www.nuiengine.com
 //  Description: This code is part of NUI Engine (NUI Graphics Lib)
-//  Comments:
+//  Comments:	定义基础数据类型
 //  Rev:         2
-//  Created:     2017/4/11
+//  Created:     2017/4/12
 //  Last edit:   2017/4/28
 //  Author:      Chen Zhi
 //  E-mail:      cz_666@qq.com
 //  License: APACHE V2.0 (see license file) 
 //  ***************************************
-#ifndef RESurface_DEFINED
-#define RESurface_DEFINED
+#ifndef REWindow_DEFINED
+#define REWindow_DEFINED
+#include "SkiaRESurface.h"
+#include <vector>
 
-#include "renderingengine.h"
+//#define USE_DDRAW
+// 显示刷新范围边线
+void ShowRefreshingBound(kn_bool bShow);
 
-using namespace skia_surface;
-class NUI_API RESurface: public IRESurface
+#ifdef WIN32
+class NUI_API REWinDeviceSurface: public RESurface
 {
 public:
-	// 构造函数函数
-	RESurface();
+	REWinDeviceSurface(HDC,kn_int width, kn_int height, REBitmap::Config colorFormat);
 
 	// 析构函数
-	virtual ~RESurface();
+	virtual ~REWinDeviceSurface() ;
 
-	//创建一个空surface
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
+
+protected:
+	HDC	m_hdc;
+	BITMAPINFO* m_p_bmi;
+	kn_int m_x_dc;
+	kn_int m_y_dc;
+};
+
+class NUI_API RELayerWinDeviceSurface: public REWinDeviceSurface
+{
+public:
+	RELayerWinDeviceSurface(HWND, HDC,kn_int width, kn_int height);
+
+	// 析构函数
+	virtual ~RELayerWinDeviceSurface() ;
+
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
+
+protected:
+	HWND m_hwnd;
+	HBITMAP m_hbitmap;
+	HDC	 m_mem_dc;
+
+};
+
+#ifdef USE_DDRAW
+class NUI_API REDDrawSurface: public RESurface
+{
+public:
+	REDDrawSurface(HWND,kn_int width, kn_int height, REBitmap::Config colorFormat);
+
+	// 析构函数
+	virtual ~REDDrawSurface() ;
+
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
+
+private:
+	HWND m_hwnd;
+	HDC	m_hdc;
+	kn_int m_x_dc;
+	kn_int m_y_dc;
+};
+#endif  //USE_DDRAW
+
+//#endif  //WIN32
+class CGLEvn;
+
+class NUI_API REGlSurface: public RESurface
+{
+public:
+	REGlSurface(HDC, kn_int width, kn_int height, REBitmap::Config colorFormat);
+
+	// 析构函数
+	virtual ~REGlSurface() ;
+
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
+	void setGLEnv(CGLEvn*  gl);
+	virtual void preDraw();
+protected:
+	HDC	m_hdc;
+	kn_byte* m_p_data;
+	CGLEvn* m_nui_gl_env;
+	UINT m_texture_id;
+	float m_vt[12];
+	float m_uv[8];
+};
+
+#if 0
+// add by boy for GLES2.0 --- 2015.5
+class KGlesEnv;
+class NUI_API REGLESSurface: public RESurface
+{
+public:
+	REGLESSurface(kn_int width, kn_int height, REBitmap::Config colorFormat);
+
+	// 析构函数
+	virtual ~REGLESSurface() ;
+
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
+	void setGLESEnv(KGlesEnv* gles);
+	virtual void preDraw();
+protected:
+	kn_byte* m_p_data;
+	KGlesEnv* m_nui_gles_env;
+	UINT m_texture_id;
+	float m_vt[12];
+	float m_uv[8];
+	bool m_isSetEnv;
+};
+/////////////////////////////////////////////
+#endif
+
+// add by boy for skia-gpu draw --- 2015.6.5
+#ifdef SKIAGL
+#include "core/SkBitmap.h"   
+#include "core/SkDevice.h"   
+#include "core/SkPaint.h"  
+#include "core/SkStream.h"
+#include "core/SkImage.h"
+#include "core/SkImageTypes.h"
+#include "core/SkImageDecoder.h"
+#include "core/SkImageEncoder.h"
+#include "core/SkSurface.h"
+#include "core/SkTypeface.h"
+#include "core/SkStrokeRec.h"
+#include "core/SkPicture.h"
+#include "utils/SkCamera.h"
+#include "views/SkApplication.h"
+#include "views/SkOSWindow_Win.h"
+#include "gpu/SkGpuDevice.h"
+#include "core/SkBitmapDevice.h"
+#include "gpu/GrContext.h"
+#include "gpu/gl/SkGLContext.h"
+#include "gpu/GrContextFactory.h"
+#include "gpu/gl/GrGLInterface.h"
+
+class NUI_API RESkiaGLSurface: public RESurface
+{
+public:
+	RESkiaGLSurface(HWND wnd, kn_int width, kn_int height, REBitmap::Config colorFormat);
+
+	// 析构函数
+	virtual ~RESkiaGLSurface() ;  
+
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
 	virtual kn_bool Initialize(kn_dword width, kn_dword height, REBitmap::Config colorFormat);
-	//通过外部指定内存创建surface
-	virtual kn_bool Initialize(void* p, kn_dword width, kn_dword height, REBitmap::Config colorFormat);
-
-	//从文件创建一个surface
-	virtual kn_bool InitializeFromFile(const kn_string& filename);
-
-	//从文件创建一个缩略图surface
-	virtual kn_bool InitializeThumbnailFromFile(const kn_string& filename, int width, int height, int scalemode, REColor bkgcolor);
-
-	// 从内存图片建立surface
-	virtual kn_bool InitializeFromPicBuffer(const kn_byte* pBuf, kn_int iBufLen);
-
-	// 资源释放函数
+	virtual void preDraw();
 	virtual void Release();
+ 
+protected:
+	bool m_isSetEnv;
+	HWND m_wnd;
+	SkOSWindow *m_SkWind;
+	GrContext *m_context;
+	SkSurface *m_surface;
+	const GrGLInterface* m_interface;
+	GrRenderTarget* m_renderTarget;
+	kn_int m_width;
+	kn_int m_height;
+};
+#endif //SKIAGL
+/////////////////////////////////////////////
 
-	// 查询是否成功初始化, 初始化失败时, 以下操作无效.
-	virtual kn_bool IsInitialized();
+class NUI_API REGLLayerWinDeviceSurface: public REGlSurface
+{
+public:
+	REGLLayerWinDeviceSurface(HWND, HDC,kn_int width, kn_int height);
 
-	// 取得BitmapBuffer
-	virtual kn_byte* GetBitmapBuffer() const;
+	// 析构函数
+	virtual ~REGLLayerWinDeviceSurface() ;
 
-	// 取得BitmapBufferSize
-	virtual size_t GetBitmapBufferSize() const;
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
 
-	// 取得Bitmap指针
-	virtual REBitmap* GetBitmap() const;
+	HDC getMemDC();
+protected:
+	BYTE *m_buffer;
+	HWND m_hwnd;
+	HBITMAP m_hbitmap;
+	HDC	 m_mem_dc;
+	BYTE*	 m_p_mem_data;
+	BITMAPINFO* m_p_bmi;
+	BLENDFUNCTION m_blf;
+	bool m_enable_gl;
+};
+#endif  //WIN32
 
-	// 取得Canvas指针
-	virtual RECanvas* GetCanvas() const;
 
-	// 确保BitmapBuffer指针指向真正的内存地址
-	virtual void LockBuffer();
-	virtual void UnlockBuffer();
+#ifdef ANDROID_NDK
+class NUI_API REAndroidSurface: public RESurface
+{
+public:
+	REAndroidSurface(char* buff, kn_int width, kn_int height, REBitmap::Config colorFormat);
 
-	// 取得宽度,像素单位.
-	virtual kn_dword GetWidth() const;
+	// 析构函数
+	virtual ~REAndroidSurface() ;
 
-	// 取得高度,像素单位
-	virtual kn_dword GetHeight() const;
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
 
-	// 取得每像素字节
-	virtual kn_dword GetXPitch() const;
+	void SetDstPointer(char* pBuf);
 
-	// 取得每行字节
-	virtual kn_dword GetYPitch() const;
+protected:
 
-	// 取得颜色格式
-	virtual REBitmap::Config GetColorFormat() const;
+    char* m_pixels;
+};
 
-	// 绘制背景
-	virtual void DrawColor(REColor color, SkXfermode::Mode mode = SkXfermode::kSrcOver_Mode);
+#endif  // ANDROID_NDK
 
-	virtual void Clear(REColor );
-	// 绘制点
-	virtual void DrawPoint(REScalar x, REScalar y, REColor color);
-	virtual void DrawPoint(REScalar x, REScalar y, const REPaint& paint);
+#ifdef QT_HMI
 
-	// 绘制直线
-	virtual void DrawLine(REScalar x1, REScalar y1, REScalar x2, REScalar y2, const REPaint& paint);
+#include <QApplication>
+#include <QtGui>
 
-	// 绘制一系列线段
-	virtual void DrawLines(const REPoint* pPoint, size_t count, const REPaint& paint);
+class NUI_API REQtSoftSurface: public RESurface
+{
+public:
+    REQtSoftSurface(void* p, kn_int width, kn_int height, REBitmap::Config colorFormat);
 
-	// 绘制DashLine
-	// 用法: pPoint&count确定描绘的轨迹, pIntervals&interCount确定间距, phase确定起始间距
-	// 例如, 假如描绘黑白相间的铁路线, 则可以设定pIntervals = {20, 20}, 颜色为黑色
-	// 假如描绘dot dash line, 则可以设定pIntervals = {30, 20, 5, 20}, 表示绘制线段长为30, 间隔20, 然后绘制dot为5, 再间隔20, 再绘制线段
-	// phase为起始间距, 实际值为phase mod (pIntervals所有值之和), 假如pIntervals = {20, 20}, 则phase取值-5, 35, 75, 效果一样
-	virtual void DrawDashLine(const REPoint* pPoint, size_t count, const REScalar* pIntervals, size_t interCount,  REScalar phase, const REPaint& paint);
+    // 析构函数
+    virtual ~REQtSoftSurface() ;
 
-	// 绘制矩形
-	virtual void DrawRect(const RERect& rct, const REPaint& paint);
+    // 绘制上屏
+    virtual void Flip(LSTRECT &lst_rect);
 
-	// 绘制多边形
-	virtual void DrawPolygon(const REPoint* pPoint, size_t count, kn_bool bClose, const REPaint& paint );
+    void SetDstLabel(QLabel* pLabel);
 
-	// 多点绘制
-	virtual void DrawPonits(SkCanvas::PointMode mode, size_t count, const REPoint pts[], const REPaint& paint );
+protected:
 
-	// 绘制圆
-	virtual void DrawCircle(REScalar x, REScalar y, REScalar radius, const REPaint& paint);
+    QLabel* m_label;
+    QImage* m_image;
+    //QPixmap  m_pixmap;
 
-	virtual void DrawArc(RERect& oval, SkScalar startAngle, SkScalar sweepAngle, bool useCenter, SkPaint& paint);
+};
 
-	// 绘制位图, 将整张源图绘制到目标图上(left(), top())位置
-	virtual kn_bool DrawBitmap(const IRESurface* pSourceRE, 
-		REScalar left, 
-		REScalar top, 
-		const REPaint* pPaint);
 
-	// 以变换矩阵的方式绘制位图
-	virtual bool DrawBitmapMatrix(const IRESurface* pSourceRE, const REMatrix& m, const REPaint* pPaint);
+#endif  // QT_HMI
 
-	// 绘制位图, 将整张源图的部分srcRect绘制到目标图上(left(), top())位置
-	virtual kn_bool DrawPartialBitmap(const IRESurface* pSourceRE, 
-		RERect srcRect,
-		REScalar destLeft, 
-		REScalar destTop, 
-		const REPaint* pPaint);
+#ifdef IOS_DEV
 
-	virtual void drawBitmapNine(const IRESurface* bitmap, const RERect& center, const RERect& dst, const SkPaint* paint = NULL);
+#include "SkCGUtils.h"
 
-	// 绘制位图, 支持拉伸
-	virtual kn_bool DrawBitmapRectToRect(const IRESurface* pSourceRE, 
-		const RERect* pSourceRect, 
-		const RERect& destRect, 
-		const REPaint* pPaint);
-	//指定位图以指定填充方式绘制到画布
-	virtual void DrawPaint(const REPaint& pPaint);
-	// 绘制文字
-	virtual void DrawText(const void* text, size_t byteLength, REScalar x,
-		REScalar y, const REPaint& paint);
-	virtual void DrawText(const kn_string& text, REScalar x,
-		REScalar y, const REPaint& paint);
-	// 沿轨迹绘制文字
-	    /** Draw the text, with origin at (x,y), using the specified paint, along
-        the specified path. The paint's Align setting determins where along the
-        path to start the text.
-        @param path         The path the text should follow for its baseline
+class NUI_API REIOSSurface: public RESurface
+{
+public:
+	REIOSSurface(void*& buff, kn_int width, kn_int height, REBitmap::Config colorFormat);
+    
+	// 析构函数
+	virtual ~REIOSSurface() ;
+    
+	// 绘制上屏
+	virtual void Flip(LSTRECT &lst_rect);
+    
+	void SetDstPointer(char* pBuf);
+    
+    
+    CGImageRef GetCGImageRef();
+    
+protected:
+    
+    // texture for gl
+    unsigned char* m_pTexBuf;
+    
+    // soft
+    CGImageRef m_cgimage;
+    
+    bool m_bGLFilp;
+    
+    
+};
+
+#endif
+
+#endif  // REWindow_DEFINED
