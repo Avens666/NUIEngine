@@ -37,9 +37,9 @@ https://www.youtube.com/watch?v=FyqRYts4o5E
 2 implementation of bin/Release/HelloNUI.exe, you can see the initial operating results
 
 ### Documentation | 文档
-NUI Engine的开发文档还在完善中，现阶段可以初步根据sample目录中的示例代码了解NUI引擎的初步试用方法
+NUI Engine的开发文档还在完善中，现阶段可以初步根据sample目录中的示例代码了解NUI引擎的初步使用方法
 
-NUI Engine development documentation is still in the process, at this stage can be initially based on the sample directory of the sample code to understand the initial NUI engine test methods
+NUI Engine development documentation is still in the process, at this stage can be initially based on the sample directory of the sample code to understand the basic usage of NUI engine.
 
 ### Compile  | 编译方法
 NUIengine基于C++开发，代码可以跨平台，支持Windows Linux Android IOS等主流系统
