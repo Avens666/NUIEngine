@@ -29,6 +29,10 @@ https://www.youtube.com/watch?v=FyqRYts4o5E
 Some user feedback Demo sample programs are very few, and there is only one simple demo now, in fact, we had more than 10 of the Demo of NUIEngine, even for the plug-in library for Python. I didn't have the energy to sort and upload. Any user in need can leave a message or send me an email ask it.
 Today, I saw 47 Star on line, thanks to everyone, and if more than 100 Star, I promised to open source for the NPlan, the most formal App of the NUIEngine, so that you won't complain enough, and don't know how to use NUIEngine's controls and advanced functions.
 
+2018.08.07 Chenzhi 留言
+今天上传了两个教程文档和几个windows下的demo程序，教程文档可以参考，但不一定和最新的sdk保持一致，可能有出入
+demo程序还没有上传代码，主要是一些demo是用老的引擎版本写的，开源的最新版本不一定能够编译通过，没有时间整理，以后有时间再说。
+
 ## Getting Started
 
 
