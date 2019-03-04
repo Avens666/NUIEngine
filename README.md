@@ -37,8 +37,10 @@ Today, I saw 47 Star on line, thanks to everyone, and if more than 100 Star, I p
 demo程序还没有上传代码，主要是一些demo是用老的引擎版本写的，开源的最新版本不一定能够编译通过，没有时间整理，以后有时间再说。
 
 2019.03.04 Chenzhi 留言
-今天上传了安卓工程，可以直接编译一个HelloNUI的安卓demo apk，需要更新一些文件，各个目录下都有
+今天上传了安卓工程，可以直接编译一个HelloNUI的安卓demo apk，需要更新一些文件，各个目录下都有.  
 Upload a android project for HelloNUI demo. need update some files.
+
+上传配套的skia源码一套【third_party/skia_vs2008-source.zip】，这个附带VS2008的工程。 给那些需要之其它环境下编译（比如VS2015）的人使用。 我不确定能否编过，我没VS2015. 
 
 ## Getting Started
 
