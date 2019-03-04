@@ -1,9 +1,16 @@
 // CalendarDemo.cpp : 定义应用程序的入口点。
 //
 
+
 #include "NUIMainView.h"
-#include "Resource.h"
+
+
 #include "mainforwindows.h"
+
+#ifdef WIN32
+#include "resource.h"
+#include "FilePath.h"
+#endif
 
 #define MAX_LOADSTRING 100
 
@@ -15,15 +22,18 @@ TCHAR szWindowClass[MAX_LOADSTRING];			// 主窗口类名
 
 int g_iScreenWidth = 1024; // 屏幕宽度
 int g_iScreenHeight = 768; // 屏幕高度
-bool		g_bMoveWindow = FALSE;
+// bool		g_bMoveWindow = FALSE;
 int g_mouse_down_flag = FALSE;
 CNUIInstance  g_nui_instance;
 
+#ifdef WIN32
+void CreateView();
 // 此代码模块中包含的函数的前向声明:
 ATOM				MyRegisterClass(HINSTANCE hInstance);
 BOOL				InitInstance(HINSTANCE, int);
 LRESULT CALLBACK	WndProc(HWND, UINT, WPARAM, LPARAM);
 INT_PTR CALLBACK	About(HWND, UINT, WPARAM, LPARAM);
+
 
 int APIENTRY _tWinMain(HINSTANCE hInstance,
                      HINSTANCE hPrevInstance,
@@ -103,18 +113,7 @@ ATOM MyRegisterClass(HINSTANCE hInstance)
 
 	return RegisterClassEx(&wcex);
 }
-void CreateView()
-{
-	////  创建标题
 
-
-	KMainView_PTR main_view = KMainView_PTR(new KMainView() );
-	main_view->Create(RERect::MakeXYWH(0, 0, (SkScalar)g_iScreenWidth , (SkScalar)g_iScreenHeight));
-	g_nui_instance.getScreen()->AddView( main_view );	
-	main_view->init();
-
-
-}
 //
 //   函数: InitInstance(HINSTANCE, int)
 //
@@ -155,7 +154,10 @@ BOOL InitInstance(HINSTANCE hInstance, int nCmdShow)
 
 
    g_nui_instance.create(para );
-
+   kn_string strPath;
+   GetFilePath(strPath);
+   strPath += _T("../img/");
+   SetCurrentPath(strPath.c_str());
    CreateView();
    g_hWnd = hWnd;
 
@@ -219,4 +221,41 @@ INT_PTR CALLBACK About(HWND hDlg, UINT message, WPARAM wParam, LPARAM lParam)
 		break;
 	}
 	return (INT_PTR)FALSE;
+}
+#endif
+
+void CreateView()
+{
+	////  创建标题
+
+
+	KMainView_PTR main_view = KMainView_PTR(new KMainView() );
+	main_view->Create(RERect::MakeXYWH(0, 0, (SkScalar)g_iScreenWidth , (SkScalar)g_iScreenHeight));
+	g_nui_instance.getScreen()->AddView( main_view );
+	main_view->init();
+
+}
+
+//====================================================================
+// for  andorid &  ios
+void ResizeWindow(void* dst, int w, int h)
+{
+	g_nui_instance.ResizeWindow(dst, w, h);
+	g_iScreenWidth = w;
+	g_iScreenHeight = h;
+}
+
+void SendOSMessage(int message, int wParam, int lParam)
+{
+	if(message == KMSG_TIMER)
+	{
+		g_nui_instance.SendTimerEvent(0);
+
+	}
+	else
+	{
+		g_nui_instance.NUIWndProc(0, message, wParam, lParam);
+
+	}
+
 }
