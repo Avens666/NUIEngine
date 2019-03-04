@@ -29,7 +29,7 @@ void KMainView::init()
 	pDrawText->SetRect(RERect::MakeXYWH(0, 20, m_rect.width(), 50)); //文本范围
 	addDrawable(pDrawText);
 
-	KImageDrawable_PTR pDrawable = KImageDrawable_PTR(new KImageDrawable(getSurfaceManager()->GetSurface(_T("../img/logo.png")), TRUE  ) );
+	KImageDrawable_PTR pDrawable = KImageDrawable_PTR(new KImageDrawable(getSurfaceManager()->GetSurface(_T("logo.png")), TRUE  ) );
 	pDrawable->SizeToImage();
 	pDrawable->SetRect(pDrawable->GetRect());
 
@@ -95,7 +95,7 @@ void KMainView::init()
 	//加一个涟漪效果控件
 	KWaveEffectView_PTR wave_view = KWaveEffectView_PTR(new KWaveEffectView() );
 	wave_view->Create(10,200,350,95);
-	wave_view->init(_T("../img/nuilogo.png") );
+	wave_view->init(_T("nuilogo.png") );
 	AddView( wave_view );
 
 	delete[] pStartState;
