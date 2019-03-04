@@ -36,6 +36,10 @@ Today, I saw 47 Star on line, thanks to everyone, and if more than 100 Star, I p
 今天上传了两个教程文档和几个windows下的demo程序，教程文档可以参考，但不一定和最新的sdk保持一致，可能有出入
 demo程序还没有上传代码，主要是一些demo是用老的引擎版本写的，开源的最新版本不一定能够编译通过，没有时间整理，以后有时间再说。
 
+2019.03.04 Chenzhi 留言
+今天上传了安卓工程，可以直接编译一个HelloNUI的安卓demo apk，需要更新一些文件，各个目录下都有
+Upload a android project for HelloNUI demo. need update some files.
+
 ## Getting Started
 
 
